@@ -1,0 +1,35 @@
+.round-text{
+    position: relative;
+    max-width: fit-content;
+    
+
+    .text-svg{
+        animation: spinAround 5000ms infinite linear;
+    }
+
+    .arrow-svg{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+.round-text:hover .text-svg {
+    animation-play-state: paused;
+}
+
+.arrow-svg:hover{
+    cursor: pointer;
+}
+
+@keyframes spinAround {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+    
+}

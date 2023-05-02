@@ -1,0 +1,51 @@
+$primary: #ffffff;
+$secondary: #474EFF;
+$text: #0F0F0F;
+$bg-color: #1E1E1E;
+$content-desktop: 1636px;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+ 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: $bg-color;
+    font-family: 'Unbounded';
+    color: $primary;
+    font-size: 16px;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    .App-header,
+    .App-main,
+    .App-footer{
+        max-width: $content-desktop;
+        min-width: 85%;
+
+    }
+
+    .App-max-width{
+        width: 100vw;
+    }
+
+    .App-header{
+        position: fixed;
+        z-index: 100;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+

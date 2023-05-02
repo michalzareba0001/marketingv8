@@ -1,0 +1,15 @@
+.icon-frame {
+  border: 1px solid #474EFF;
+  border-radius: 100px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-frame .icon-title {
+  font-size: 41px;
+  font-weight: 300;
+  line-height: 51px;
+  color: #474EFF;
+}/*# sourceMappingURL=IconFrame.css.map */

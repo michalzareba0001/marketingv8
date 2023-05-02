@@ -1,0 +1,31 @@
+.round-text {
+  position: relative;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.round-text .text-svg {
+  animation: spinAround 5000ms infinite linear;
+}
+.round-text .arrow-svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.round-text:hover .text-svg {
+  animation-play-state: paused;
+}
+
+.arrow-svg:hover {
+  cursor: pointer;
+}
+
+@keyframes spinAround {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}/*# sourceMappingURL=RoundText.css.map */

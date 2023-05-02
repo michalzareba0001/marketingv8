@@ -1,0 +1,53 @@
+.container-grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 338px;
+    margin-bottom: 331px;
+
+    .left {
+        grid-column: 1/2;
+
+        .we-only-work {
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 143%;
+            .text-row-2{
+                padding-left: 60px;
+            }
+            .text-row-3{
+                padding-left: 120px;
+            }
+        }
+        .we-are-global-agency{
+            font-size: 14px;
+            padding-left: 232px;
+            margin-top: 47px;
+            margin-bottom: 47px;
+            line-height: 22px;
+        }
+        .contact-us-button{
+            padding-left: 232px;
+        }
+    }
+
+    .right {
+        grid-column: 2/3;
+
+        .logos-grid{
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        .logos-grid > *{
+            flex-basis: 32%;
+        }
+        .more-clients{
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 30px
+        }
+    }
+}

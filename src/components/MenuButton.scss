@@ -1,0 +1,39 @@
+.hamburgerButton{
+    width: 50px;
+    height: 21px;
+    position: relative;
+
+    .barOne{
+        width: 40px;
+        height: 5px;
+        position: absolute;
+        top: 0;
+        background-color: $primary;
+        transition: all 700ms;
+    }
+
+    .barTwo{
+            width: 40px;
+            height: 5px;
+            position: absolute;
+            bottom: 0;
+            background-color: $primary;
+            transition: all 700ms;
+    }
+}
+
+.hamburgerButton:hover{
+    cursor: pointer;
+}
+
+.barOne-active{
+    transform: rotateZ(45deg);
+    transition: all 700ms;
+    top: 50% !important;
+}
+
+.barTwo-active{
+    transform: rotateZ(-45deg);
+    transition: all 700ms;
+    bottom: 25% !important;
+}

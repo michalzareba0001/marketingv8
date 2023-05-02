@@ -1,0 +1,48 @@
+.container-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-top: 338px;
+  margin-bottom: 331px;
+}
+.container-grid .left {
+  grid-column: 1/2;
+}
+.container-grid .left .we-only-work {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 143%;
+}
+.container-grid .left .we-only-work .text-row-2 {
+  padding-left: 60px;
+}
+.container-grid .left .we-only-work .text-row-3 {
+  padding-left: 120px;
+}
+.container-grid .left .we-are-global-agency {
+  font-size: 14px;
+  padding-left: 232px;
+  margin-top: 47px;
+  margin-bottom: 47px;
+  line-height: 22px;
+}
+.container-grid .left .contact-us-button {
+  padding-left: 232px;
+}
+.container-grid .right {
+  grid-column: 2/3;
+}
+.container-grid .right .logos-grid {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.container-grid .right .logos-grid > * {
+  flex-basis: 32%;
+}
+.container-grid .right .more-clients {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+}/*# sourceMappingURL=GrearestCompanies.css.map */

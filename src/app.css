@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App-main {
+  background-color: #1E1E1E;
+}
+.App-main h2 {
+  color: #474EFF;
+}/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,25 @@
+.header-main {
+  display: grid;
+  grid-template-columns: 60% 33% 7%;
+}
+.header-main .col-one {
+  padding-top: 64px;
+  grid-column: 1/2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-main .col-two {
+  padding-top: 64px;
+  grid-column: 2/3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-main .col-three {
+  padding-top: 64px;
+  grid-column: 3/4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}/*# sourceMappingURL=header.css.map */
