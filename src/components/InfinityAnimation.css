@@ -1,0 +1,23 @@
+.infinity-div {
+  min-height: 66px;
+  display: flex;
+  align-items: center;
+}
+.infinity-div .infinity {
+  animation: infinityAnim 5000ms infinite ease-in-out;
+}
+
+@keyframes infinityAnim {
+  0% {
+    transform: rotateY(0deg);
+  }
+  10% {
+    transform: rotateY(0deg);
+  }
+  90% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}/*# sourceMappingURL=InfinityAnimation.css.map */

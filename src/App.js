@@ -4,6 +4,8 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import GreatestCompanies from './components/GreatestCompanies';
 import GrowYourBusiness from './components/GrowYourBusiness';
+import PortfolioSection from './components/PortfolioSection';
+import WeAreAll from './components/WeAreAll';
 
 function App() {
   return (
@@ -16,11 +18,16 @@ function App() {
         <HeroSection />
         <GreatestCompanies />
       </div>
-      <div className='App-max-width'>
-        <GrowYourBusiness />
 
+      <div className='App-max-width grow-your-buisness-archor'>
+        <GrowYourBusiness />
       </div>
 
+      <div className='App-main'>
+        <PortfolioSection />
+        <WeAreAll />
+      </div>
+      
       <footer className="App-footer">
 
       </footer>

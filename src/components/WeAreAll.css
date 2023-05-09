@@ -1,0 +1,75 @@
+.we-are-all-main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-image: url("../images/webp/weAreAllBg_edited.webp");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  padding-top: 220px;
+  padding-bottom: 220px;
+}
+.we-are-all-main .we-are-all-left {
+  grid-column: 1/2;
+}
+.we-are-all-main .we-are-all-left h3 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 72px;
+}
+.we-are-all-main .we-are-all-left p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-top: 30px;
+}
+.we-are-all-main .we-are-all-right-one {
+  grid-column: 2/3;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 300;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+.we-are-all-main .we-are-all-right-one .cytat {
+  width: 60%;
+}
+.we-are-all-main .we-are-all-right-one .cytat .cudzyslow-ico {
+  display: inline;
+  padding-right: 10px;
+}
+.we-are-all-main .we-are-all-right-one .cytat .cudzyslow-text {
+  display: inline;
+}
+.we-are-all-main .we-are-all-right-one .the-boss {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 60%;
+}
+.we-are-all-main .we-are-all-right-one .the-boss .boss-foto {
+  display: inline;
+}
+.we-are-all-main .we-are-all-right-one .the-boss .boss-foto img {
+  max-width: 100px;
+}
+.we-are-all-main .we-are-all-right-one .the-boss .boss-text {
+  display: inline;
+}
+.we-are-all-main .we-are-all-right-one .the-boss .boss-text p {
+  font-size: 18px;
+  font-weight: 300px;
+  line-height: 29px;
+}
+.we-are-all-main .we-are-all-right-one .the-boss .boss-text .blue-text {
+  color: #474EFF;
+  font-size: 13px;
+}
+.we-are-all-main .we-are-all-right-two {
+  grid-column: 2/3;
+}/*# sourceMappingURL=WeAreAll.css.map */

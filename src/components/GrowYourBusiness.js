@@ -3,10 +3,11 @@ import './GrowYourBusiness.css'
 import CounterUno from './CounterUno'
 import CounterDos from './CounterDos'
 import CounterTrees from './CounterTrees'
+import InfinityAnimation from './InfinityAnimation'
 
 function GrowYourBusiness() {
   return (
-    <div className='main-container'>
+    <div className='main-container grow-your-business-anchor'>
       <div className='content-container'>
         <p className='small-text'>
           Working with us is not a cost. It’s an investment to your business growth.
@@ -49,6 +50,7 @@ function GrowYourBusiness() {
           </div>
           <div className='counter4'>
             <hr className='thin-line' />
+            <InfinityAnimation />
 
             <p className='counter-description'>
               Possibilities for your<br/>

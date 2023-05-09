@@ -5,4 +5,8 @@
 }
 .link-with-arrow img {
   padding-left: 13px;
+}
+
+.link-with-arrow:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=LinkWithArrow.css.map */

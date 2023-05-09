@@ -1,0 +1,115 @@
+.portfolio-section {
+    padding-top: 163px;
+
+    .first-title-div {
+        margin-bottom: 113px;
+
+        .first-title {
+            display: inline;
+            font-size: 50px;
+            line-height: 72px;
+            font-weight: 400;
+        }
+
+        .deco-icon{
+            padding-left: 30px;
+        }
+    }
+
+    .client-name{
+        font-size: 50px;
+        line-height: 72px;
+        font-weight: 400;
+        margin-bottom: 13px;
+    }
+
+    .client-description1{
+        display: grid;
+        grid-template-columns: 31% 69%;
+        margin-bottom: 250px;
+
+        .client-text{
+            padding: 13px 20px 0px 0px;
+
+            p{
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+            }
+
+            .purpple-text{
+                font-size: 13px;
+                font-weight: 300;
+                line-height: 20px;
+                margin-top: 40px;
+                color: #474EFF;
+
+            }
+
+            .client-web{
+                color: #ffffff;
+                font-size: 30px;
+                font-weight: 300;
+                line-height: 38px;
+            }
+        }
+
+        .client-foto{
+            display: flex;
+            justify-content: flex-end;            
+            img{
+                max-height: 447px;;
+            }
+        }
+
+    }
+
+    .client-description2{
+        display: grid;
+        grid-template-columns: 61% 31%;
+        margin-bottom: 250px;
+
+        .client-text{
+            float: right;
+            padding: 13px 20px 0px 0px;
+
+            p{
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+            }
+
+            .purpple-text{
+                font-size: 13px;
+                font-weight: 300;
+                line-height: 20px;
+                margin-top: 40px;
+                color: #474EFF;
+
+            }
+
+            .client-web{
+                color: #ffffff;
+                font-size: 30px;
+                font-weight: 300;
+                line-height: 38px;
+            }
+        }
+
+        .client-foto{
+            padding-right: 113px;
+            
+            img{
+                max-height: 410px;;
+            }
+        }
+
+    }
+    .link-with-arrow{
+        grid-column: 2/3;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 40px;
+    }
+}

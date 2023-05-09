@@ -1,0 +1,92 @@
+.we-are-all-main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url('../images/webp/weAreAllBg_edited.webp');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    padding-top: 220px;
+    padding-bottom: 220px;
+
+
+    .we-are-all-left {
+        grid-column: 1/2;
+
+        h3 {
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 72px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            margin-top: 30px;
+        }
+    }
+
+    .we-are-all-right-one {
+        grid-column: 2/3;
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 300;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+
+        .cytat{
+            width: 60%;
+            .cudzyslow-ico {
+                display: inline;
+                padding-right: 10px;
+            }
+    
+            .cudzyslow-text {
+                display: inline;
+            }
+        }
+
+
+        .the-boss {
+            display: flex;
+            gap: 20px;
+            justify-content: flex-start;
+            align-items: flex-end;
+            width: 60%;
+    
+            .boss-foto {
+             display: inline;
+    
+                img {
+                    max-width: 100px;
+                }
+            }
+    
+            .boss-text {
+               display: inline;
+               p{
+                font-size: 18px;
+                font-weight: 300px;
+                line-height: 29px;
+               }
+               .blue-text{
+                color: #474EFF;
+                font-size: 13px;
+
+               }
+            }
+        }
+
+    }
+    .we-are-all-right-two {
+        grid-column: 2/3;
+
+    }
+
+
+}

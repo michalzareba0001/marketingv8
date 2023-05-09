@@ -3,6 +3,17 @@ import './CounterUno.css'
 
 function CounterDos() {
   const [count, setCount] = useState(0)
+  const [isVisible, setIsVisible] = useState(false)
+
+  useEffect(() => {
+    const onScroll = () => {
+      const element = document.querySelector('.grow-your-business-anchor')
+      const rect = element.getBoundingClientRect()
+      setIsVisible(rect.top < window.innerHeight && rect.bottom >= 0)
+    }
+    window.addEventListener('scroll', onScroll)
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -13,7 +24,7 @@ function CounterDos() {
       }
     }, 10)
     return () => clearInterval(interval)
-  }, [count])
+  }, [count], isVisible)
 
   const formatCount = (value) => {
     return value >= 19000 ? "19k+" : `${value}`
