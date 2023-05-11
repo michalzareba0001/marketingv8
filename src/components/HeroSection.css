@@ -40,11 +40,13 @@
   z-index: 10;
 }
 .hero-section .right-column .video-container {
-  min-width: 92%;
+  min-width: 80%;
   max-width: 800px;
-  min-height: 848px;
+  height: 99vh;
   overflow: hidden;
   position: relative;
+  margin-right: 50px;
+  margin-left: auto;
 }
 .hero-section .right-column .video-container::before {
   content: "";

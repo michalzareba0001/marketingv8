@@ -4,11 +4,11 @@ import ArrowSvg from '../images/svg/arrowRight.svg'
 import './RoundText.css'
 
 
-function RoundText() {
+function RoundText(props) {
   return (
     <div className='round-text'>
-        <img src={TextSvg} className='text-svg' alt='become our prestige customer' />
-        <img src={ArrowSvg} className='arrow-svg' alt='arrow right' />
+      <img src={TextSvg} className='text-svg' style={{ height: `${props.height}` }} alt='become our prestige customer' />
+      <img src={ArrowSvg} className='arrow-svg' style={{ width: `${props.arrwidth}` }} alt='arrow right' />
 
     </div>
   )

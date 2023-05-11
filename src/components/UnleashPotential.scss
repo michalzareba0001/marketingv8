@@ -1,0 +1,69 @@
+.unleash-potential-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 208px 0px 208px 0px;
+    background-image: url('../images/webp/diamond2_edited.webp');
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+
+    h3{
+        font-size: 50px;
+        line-height: 72px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .button-div{
+        margin: 42px 0px 42px 0px;
+    }
+    
+    p{
+        margin: 42px 0px 42px 0px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+    .stars-section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 35% 1fr 35%;
+
+        .col-one{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            grid-column: 1/2;
+        }
+
+        .col-two{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            grid-column: 2/3;
+        }
+
+        .col-three{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            grid-column: 3/4;
+        }
+
+        p{
+            text-align: center;
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 400;
+            margin-top: 15px;
+            color: #BBBBBB;
+        }
+    }
+}

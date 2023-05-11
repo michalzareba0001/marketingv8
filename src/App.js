@@ -6,6 +6,9 @@ import GreatestCompanies from './components/GreatestCompanies';
 import GrowYourBusiness from './components/GrowYourBusiness';
 import PortfolioSection from './components/PortfolioSection';
 import WeAreAll from './components/WeAreAll';
+import TopServices from './components/TopServices';
+import UnleashPotential from './components/UnleashPotential';
+import WhiteMenuSection from './components/WhiteMenuSection';
 
 function App() {
   return (
@@ -26,6 +29,11 @@ function App() {
       <div className='App-main'>
         <PortfolioSection />
         <WeAreAll />
+        <TopServices />
+        <UnleashPotential />
+      </div>
+      <div className='App-max-width'>
+        <WhiteMenuSection />
       </div>
       
       <footer className="App-footer">

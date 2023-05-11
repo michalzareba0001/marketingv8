@@ -1,0 +1,33 @@
+.white-menu-section{
+    background-color: #ffffff;
+    padding: 149px 142px 149px 142px;
+
+    .white-menu-grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        .white-menu-left{
+            grid-column: 1/2;
+        }
+
+        .white-menu-right{
+            grid-column: 2/3;
+        }
+
+    }
+
+    h3{
+        color: #000000;
+        font-size: 50px;
+        line-height: 72px;
+        font-weight: 400;
+    }
+
+    p{
+        color: #000000;
+    }
+
+
+
+}

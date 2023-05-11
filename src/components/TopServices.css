@@ -1,0 +1,42 @@
+.top-services-main {
+  width: 100%;
+  padding-bottom: 281px;
+  padding-top: 81px;
+}
+.top-services-main .title-section {
+  display: grid;
+  grid-template-columns: 33% 57% 10%;
+}
+.top-services-main .title-section .col-one {
+  grid-column: 1/2;
+  max-height: 100%;
+  overflow-x: visible;
+}
+.top-services-main .title-section .col-one h3 {
+  font-size: 50px;
+  line-height: 72px;
+  font-weight: 400;
+}
+.top-services-main .title-section .col-one h3 span {
+  padding-left: 25%;
+}
+.top-services-main .title-section .col-two {
+  grid-column: 2/3;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+.top-services-main .title-section .col-two p {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+}
+.top-services-main .title-section .col-three {
+  max-height: 142px;
+  grid-column: 3/4;
+}
+.top-services-main .kafle-section {
+  margin-top: 86px;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=TopServices.css.map */

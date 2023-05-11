@@ -2,25 +2,36 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: $secondary;
+    background-color: #474EFF;
     width: 152px;
     height: 37px;
     border-radius: 34px;
-    transition: all 700ms;
-    border: none;
- 
+    transition: all 500ms;
+    border: none !important;
+    box-shadow: 0px 0px 36px 3px #474EFF;
+    
+
     .button-text {
-        color: $primary;
+        color: #ffffff;
         font-size: 12px;
         font-weight: 400;
         font-family: 'Unbounded';
         text-align: center;
+        transition: color 500ms;
+
     }
 
 }
 
 .blue-button:hover {
-    cursor: pointer;
-    box-shadow: 0px 0px 36px 3px $secondary;
-    transition: all 700ms;
+    cursor: pointer;   
+    transition: all 500ms;
+    box-shadow: 0px 0px 50px 8px #474EFF;
+
+    .button-text{
+       // font-weight: 600;
+        transition: color 500ms;
+        color: #000000;
+
+    }
 }

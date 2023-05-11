@@ -48,11 +48,13 @@
         z-index: 10;
 
         .video-container {
-            min-width: 92%;
+            min-width: 80%;
             max-width: 800px;
-            min-height: 848px;
+            height: 99vh;
             overflow: hidden;
             position: relative;
+            margin-right: 50px;
+            margin-left: auto;
         }
 
         .video-container::before {
