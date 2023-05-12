@@ -12,6 +12,54 @@
 }
 .white-menu-section .white-menu-grid .white-menu-right {
   grid-column: 2/3;
+  margin-top: 284px;
+}
+.white-menu-section .white-menu-grid .white-menu-right .white-menu-right-grid {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+}
+.white-menu-section .white-menu-grid .white-menu-right .number {
+  grid-column: 1/2;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.white-menu-section .white-menu-grid .white-menu-right .number span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.white-menu-section .white-menu-grid .white-menu-right .title {
+  grid-column: 2/3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.white-menu-section .white-menu-grid .white-menu-right .title h4 {
+  font-size: 30px;
+  font-weight: 500;
+  display: inline;
+}
+.white-menu-section .white-menu-grid .white-menu-right .title h4:hover {
+  cursor: pointer;
+}
+.white-menu-section .white-menu-grid .white-menu-right .title .arrow-right {
+  display: inline;
+  padding-left: 24px;
+}
+.white-menu-section .white-menu-grid .white-menu-right .title .arrow-right:hover {
+  cursor: pointer;
+}
+.white-menu-section .white-menu-grid .white-menu-right .title .description-parent {
+  max-width: 590px;
+  height: 0px;
+  overflow: hidden;
+}
+.white-menu-section .white-menu-grid .white-menu-right .title .description-parent .description-child {
+  border-bottom: 1px solid black;
+  padding-bottom: 38px;
+}
+.white-menu-section .white-menu-grid .white-menu-right .title .description-parent p {
+  padding-bottom: 38px;
 }
 .white-menu-section h3 {
   color: #000000;
@@ -20,5 +68,15 @@
   font-weight: 400;
 }
 .white-menu-section p {
+  color: #000000;
+  margin-top: 42px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+}
+.white-menu-section span {
+  color: #000000;
+}
+.white-menu-section h4 {
   color: #000000;
 }/*# sourceMappingURL=WhiteMenuSection.css.map */

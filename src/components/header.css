@@ -1,6 +1,6 @@
 .header-main {
   display: grid;
-  grid-template-columns: 60% 33% 7%;
+  grid-template-columns: 60% 40%;
 }
 .header-main .col-one {
   padding-top: 64px;
@@ -12,13 +12,6 @@
 .header-main .col-two {
   padding-top: 64px;
   grid-column: 2/3;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.header-main .col-three {
-  padding-top: 64px;
-  grid-column: 3/4;
   display: flex;
   justify-content: flex-end;
   align-items: center;

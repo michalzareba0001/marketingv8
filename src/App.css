@@ -28,7 +28,7 @@ body {
   width: 100vw;
 }
 .App .App-header {
-  position: fixed;
+  position: absolute;
   z-index: 100;
 }
 

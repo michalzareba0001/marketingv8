@@ -22,9 +22,7 @@ function Header() {
             />
 
         </div>
-        <div className='col-three'>
-            <MenuButton />
-        </div>
+       
 
     </div>
   )
