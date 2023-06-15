@@ -20,10 +20,11 @@
 }
 .container-grid .left .we-are-global-agency {
   font-size: 14px;
-  padding-left: 232px;
+  padding-left: 180px;
   margin-top: 47px;
   margin-bottom: 47px;
   line-height: 22px;
+  font-weight: 300;
 }
 .container-grid .left .contact-us-button {
   padding-left: 232px;

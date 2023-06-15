@@ -1,6 +1,6 @@
 .we-are-all-main {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 57% 43%;
     background-image: url('../images/webp/weAreAllBg_edited.webp');
     background-position: center;
     background-size: contain;
@@ -33,8 +33,8 @@
         font-size: 16px;
         font-weight: 300;
         display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        justify-content: center;
+        align-items: flex-end;
         flex-wrap: wrap;
         flex-direction: column;
         gap: 20px;
@@ -80,6 +80,10 @@
 
                }
             }
+        }
+        .button-div{
+            margin-top: 5px;
+            width: 60%;
         }
 
     }

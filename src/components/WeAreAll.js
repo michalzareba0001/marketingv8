@@ -2,20 +2,20 @@ import React from 'react'
 import './WeAreAll.css'
 import Cudzyslow from '../images/svg/cudzyslow.svg'
 import PawelFoto from '../images/webp/pawelfoto_edited.webp'
+import BlueButton from './BlueButton'
 
 function WeAreAll() {
     return (
         <div className='we-are-all-main'>
             <div className='we-are-all-left'>
                 <h3>
-                    We are all connected<br />
-                    through art.
+                    Discover the power of premium<br />
+                    e-commerce and unlock your <br />
+                    business's full potential!
                 </h3>
                 <p>
-                    The Art department works closely with our teams to express creative<br />
-                    pursuits and wild ideas that clients sometimes come to us for.<br />
-                    We seek alignment and clarity to create actionable strategies<br />
-                    to achieve your marketing goals.
+                    Explore the potential of your business with our world-class solutions and<br/> expert strategies. We will help your premium brand rise to new heights<br/> and achieve exceptional growth through our passion for excellence<br/>
+                    and commitment to your success. Impossible? Not with us!
                 </p>
             </div>
             <div className='we-are-all-right-one'>
@@ -32,10 +32,15 @@ function WeAreAll() {
 
                     </div>
                     <div className='boss-text'>
-                        <p>Pawel Scharmach<br/>
-                        <span className='blue-text'> CEO AT MARKETING V8 </span> </p>
+                        <p>Pawel Scharmach<br />
+                            <span className='blue-text'> CEO AT MARKETING V8 </span> </p>
 
                     </div>
+                </div>
+                <div className='button-div'>
+                    <BlueButton
+                        text='Contact us'
+                    />
                 </div>
             </div>
 

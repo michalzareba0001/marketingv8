@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
 import Logo from '../images/svg/v8logo.svg'
-import MenuButton from './MenuButton'
 import BlueButton from './BlueButton'
 
 function Header() {

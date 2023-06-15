@@ -3,27 +3,35 @@ import './PortfolioSection.css'
 import DecoIco1 from '../images/svg/decoIco1.svg'
 import DecoIco2 from '../images/svg/decoIco2.svg'
 import DecoIco3 from '../images/svg/decoIco3.svg'
-import SesvanFoto from '../images/webp/sesvan_edited.webp'
-import HevenFoto from '../images/webp/heven_edited.webp'
-import FitMonicaFoto from '../images/webp/fitMonica_edited.webp'
-import LinkWithArrow from './LinkWithArrow'
+import SesvanFoto from '../images/webp/sesvan-wiz_edited.webp'
+import HevenFoto from '../images/webp/heven-wiz_edited.webp'
+import HivioFoto from '../images/webp/hivio-wiz_edited.webp'
+
 
 
 function PortfolioSection() {
     return (
         <div className='portfolio-section'>
             <div className='first-title-div'>
-                <h3 className='first-title'>
-                    Our creative designers get things<br />
-                    done efficiently and effectively.
-                </h3>
-                <img src={DecoIco1} alt='decoration icon' className='deco-icon' />
-                <img src={DecoIco2} alt='decoration icon' className='deco-icon' />
-                <img src={DecoIco3} alt='decoration icon' className='deco-icon' />
+                <div className='col-one'>
+                    <h3 className='first-title'>
+                        Unleash the power<br /> of passion.
+                    </h3>
+                </div>
+                <div className='col-two'>
+                    <p>
+                        Our premium e-commerce solutions<br /> redefine excellence!
+                    </p>
+                </div>
+                <div className='col-three'>
+                    <img src={DecoIco1} alt='decoration icon' className='deco-icon' />
+                    <img src={DecoIco2} alt='decoration icon' className='deco-icon' />
+                    <img src={DecoIco3} alt='decoration icon' className='deco-icon' />
+                </div>
             </div>
-            <h4 className='client-name'>Sesvan</h4>
             <div className='client-description1'>
                 <div className='client-text'>
+                    <h4 className='client-name'>Sesvan</h4>
                     <p>SESVAN is a family business that, with the support of a dedicated team, has built a strong B2B organization with a solid position in the Scandinavian market. Our challenge at that time was to create and implement a complete website, practically from A to Z, while keeping in mind the needs and requirements of that market, which is significantly different. We knew that the Northern European region had to be ours!
                         <br />
                         <br />
@@ -31,10 +39,7 @@ function PortfolioSection() {
                         We conducted dozens of studies, which allowed us to know precisely which specific areas the brand should focus on. Based on various analyses, we created a website that perfectly fit into the local market. The strategy we adopted achieved real success, as evidenced by the results of our actions.
                     </p>
 
-                    <p className='purpple-text'>
-                        Check out their beyond success
-                    </p>
-                    <a href='https://sesvan.se/' rel="noreferrer" target='_blank' className='client-web'>sesvan.se</a>
+
                 </div>
                 <div className='client-foto'>
                     <img src={SesvanFoto} alt='sesvan portfolio' />
@@ -42,13 +47,13 @@ function PortfolioSection() {
                 </div>
             </div>
 
-            <h4 className='client-name'>Heven</h4>
             <div className='client-description2'>
                 <div className='client-foto'>
                     <img src={HevenFoto} alt='heven portfolio' />
 
                 </div>
                 <div className='client-text'>
+                    <h4 className='client-name'>Heven</h4>
                     <p>For the Heaven brand, perfection is the key word when it comes to any marketing activities. The brand's clothes are characterized by
                         high-quality production and durability, which makes them last for a long time and maintain their stylish appearance. As the brand operates mainly on the international market, we knew that the bar was set quite high. Nevertheless, we faced it and met all of our client's needs, which included refreshing the graphic visualization and launching SEO activities.
                         <br />
@@ -58,40 +63,27 @@ function PortfolioSection() {
 
 
                     </p>
-
-                    <p className='purpple-text'>
-                        Check their success
-                    </p>
-                    <a href='https://hevenmadeonearth.com/' rel="noreferrer" target='_blank' className='client-web'>hevenmadeonearth.com</a>
                 </div>
             </div>
 
-            <h4 className='client-name'>FitMonica</h4>
             <div className='client-description1'>
                 <div className='client-text'>
-                    <p>Fit Monica is a brand that specializes in a healthy lifestyle and physical activity. In 2021, the company decided to create a new brand image, including a new logo and website. Just as a sprinter needs proper training, perseverance, and dedication to achieve success, the specialists in the marketing agency also need determination, drive, and a lot of work to succeed in their business.
+                    <h4 className='client-name'>Hivio</h4>
+                    <p>Our agency had the opportunity to work with Hivio, a brand specializing in premium ventilation systems. Our task was to create a comprehensive marketing strategy to enhance their brand awareness, reach their target audience, and ultimately increase sales.
                         <br />
                         <br />
-                        Our agency took on the task with great commitment and paid special attention to the needs and expectations of the client. We set ourselves the goal of creating a modern and attractive logo as well as a functional UX/UI website that would attract customers and make it easier for them to use the company's offer.
 
+                        To drive targeted traffic to the website, we implemented a strategic digital marketing campaign that included search engine optimization (SEO), pay-per-click (PPC) advertising, and social media marketing. Through careful keyword research and ad targeting, we were able to reach potential customers actively seeking ventilation solutions.
+                        In addition to online efforts, we executed offline marketing activities such as participating in industry trade shows and organizing product demonstrations.
 
                     </p>
 
-                    <p className='purpple-text'>
-                        Check her success
-                    </p>
-                    <a href='https://fitmonica.co.uk/' rel="noreferrer" target='_blank' className='client-web'>fitmonica.co.uk</a>
                 </div>
                 <div className='client-foto'>
-                    <img src={FitMonicaFoto} alt='sesvan portfolio' />
+                    <img src={HivioFoto} alt='sesvan portfolio' />
 
                 </div>
-               
-            <div className='link-with-arrow'>
-                    <LinkWithArrow
-                    text='More case study'
-                    />
-                </div>
+
             </div>
 
         </div>

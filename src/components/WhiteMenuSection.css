@@ -45,14 +45,20 @@
 .white-menu-section .white-menu-grid .white-menu-right .title .arrow-right {
   display: inline;
   padding-left: 24px;
+  transition: all 500ms;
 }
 .white-menu-section .white-menu-grid .white-menu-right .title .arrow-right:hover {
   cursor: pointer;
+}
+.white-menu-section .white-menu-grid .white-menu-right .title .arrow-right-active {
+  transform: rotateZ(90deg) translate(-25%, -50%);
+  transition: all 500ms;
 }
 .white-menu-section .white-menu-grid .white-menu-right .title .description-parent {
   max-width: 590px;
   height: 0px;
   overflow: hidden;
+  transition: all 700ms;
 }
 .white-menu-section .white-menu-grid .white-menu-right .title .description-parent .description-child {
   border-bottom: 1px solid black;

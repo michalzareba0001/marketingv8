@@ -52,16 +52,25 @@
                 .arrow-right{
                     display: inline;
                     padding-left: 24px;
+                    transition: all 500ms;
                 }
 
                 .arrow-right:hover{
                     cursor: pointer;
                 }
 
+                .arrow-right-active{
+                    transform: rotateZ(90deg) translate(-25%, -50%);
+                    transition: all 500ms;
+                }
+
+
+
                 .description-parent{
                     max-width: 590px;
                     height: 0px;
                     overflow: hidden;
+                    transition: all 700ms;
 
                     .description-child{
                          border-bottom: 1px solid black;
@@ -73,6 +82,11 @@
                     p{
                         padding-bottom: 38px;
                     }
+                }
+
+                .description-parent-active{
+                    
+                   
                 }
             }
           

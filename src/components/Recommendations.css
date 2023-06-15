@@ -1,0 +1,73 @@
+.recommendations-main {
+  margin: 255px 0px 255px 0px;
+  width: 100%;
+  background-image: url("../images/webp/ClientSayBg.webp");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.recommendations-main .title-div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+}
+.recommendations-main .title-div .col-one {
+  grid-column: 1/2;
+}
+.recommendations-main .title-div .col-one h3 {
+  font-size: 50px;
+  line-height: 72px;
+  font-weight: 400;
+}
+.recommendations-main .title-div .col-one h3 .sec-row {
+  padding-left: 110px;
+}
+.recommendations-main .title-div .col-two {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  grid-column: 2/3;
+}
+.recommendations-main .title-div .col-two .clients-say-mark {
+  max-height: 110px;
+}
+.recommendations-main .title-div .col-three {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  grid-column: 3/4;
+}
+.recommendations-main .content-div {
+  width: 80%;
+  margin-top: 129px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.recommendations-main .content-div .photo-div {
+  grid-column: 1/2;
+  padding-top: 20px;
+}
+.recommendations-main .content-div .photo-div img {
+  width: 148px;
+}
+.recommendations-main .content-div .text-div {
+  grid-column: 2/3;
+  position: relative;
+}
+.recommendations-main .content-div .text-div .cudzyslow {
+  position: absolute;
+  top: 0;
+}
+.recommendations-main .content-div .text-div p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  padding-top: 40px;
+}
+.recommendations-main .content-div .text-div .signature {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}/*# sourceMappingURL=Recommendations.css.map */

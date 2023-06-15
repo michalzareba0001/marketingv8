@@ -20,13 +20,13 @@ function GreatestCompanies() {
     return (
         <div className='container-grid'>
             <div className='left'>
-                <h3 className='we-only-work'>We only work with<br />
-                    <span className='text-row-2'>companies focused on</span><br />
-                    <span className='text-row-3'>being the greatest</span>
+                <h3 className='we-only-work'>Enter the realm of exclusive<br />
+                    <span className='text-row-2'>e-commerce customers</span><br />
+                    <span className='text-row-3'>and go beyond.</span>
                 </h3>
                 <p className='we-are-global-agency'>
-                    We’re a global agency focused on improving the personal & professional<br />
-                    lives of our team - and we do that by growing our clients businesses.
+                Trust a premium marketing agency exclusively serving elite brands, crafting bespoke <br/>
+                strategies, optimizing conversions, and dissecting campaigns for extraordinary success.
                 </p>
                 <div className='contact-us-button'>
                     <BlueButton
@@ -36,55 +36,55 @@ function GreatestCompanies() {
             </div>
             <div className='right'>
                 <div className='logos-grid'>
-                    <LogoBrick 
+                    <LogoBrick
                         src={HivioLogo}
-                        alt= 'Hivio Logo'
+                        alt='Hivio Logo'
 
                     />
-                    <LogoBrick 
+                    <LogoBrick
                         src={TcoLogo}
-                        alt= 'Tco Logo'
+                        alt='Tco Logo'
 
                     />
-                    <LogoBrick 
+                    <LogoBrick
                         src={SchLogo}
-                        alt= 'Scharmach Logo'
+                        alt='Scharmach Logo'
 
                     />
-                    <LogoBrick 
+                    <LogoBrick
                         src={SesvanLogo}
-                        alt= 'Sesvan Logo'
+                        alt='Sesvan Logo'
 
                     />
-                    <LogoBrick 
+                    <LogoBrick
                         src={HardRockLogo}
-                        alt= 'Hard Rock Logo'
+                        alt='Hard Rock Logo'
 
                     />
-                    <LogoBrick 
+                    <LogoBrick
                         src={HavenLogo}
-                        alt= 'Heven Logo'
+                        alt='Heven Logo'
 
                     />
-                    <LogoBrick 
+                    <LogoBrick
                         src={HiltonLogo}
-                        alt= 'Hilton Logo'
+                        alt='Hilton Logo'
 
                     />
-                    <LogoBrick 
+                    <LogoBrick
                         src={SheratonLogo}
-                        alt= 'Sheraton Logo'
+                        alt='Sheraton Logo'
 
                     />
-                    <LogoBrick 
+                    <LogoBrick
                         src={JaguarLogo}
-                        alt= 'Jaguar Logo'
+                        alt='Jaguar Logo'
                     />
-                    
+
                 </div>
                 <div className='more-clients'>
-                    <LinkWithArrow 
-                    text = 'More clients'
+                    <LinkWithArrow
+                        text='More clients'
                     />
 
                 </div>

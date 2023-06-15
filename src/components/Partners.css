@@ -1,0 +1,8 @@
+.partners-container {
+  height: 222px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1607843137);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1607843137);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}/*# sourceMappingURL=Partners.css.map */

@@ -22,7 +22,7 @@ function CounterTrees() {
       } else {
         setCount(count + 1)
       }
-    }, 250)
+    }, 700)
     return () => clearInterval(interval)
   }, [count], isVisible)
 

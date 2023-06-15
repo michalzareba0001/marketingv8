@@ -9,6 +9,8 @@ import WeAreAll from './components/WeAreAll';
 import TopServices from './components/TopServices';
 import UnleashPotential from './components/UnleashPotential';
 import WhiteMenuSection from './components/WhiteMenuSection';
+import Recommendations from './components/Recommendations';
+import Partners from './components/Partners';
 
 function App() {
   return (
@@ -34,6 +36,10 @@ function App() {
       </div>
       <div className='App-max-width'>
         <WhiteMenuSection />
+      </div>
+      <div className='App-main'>
+        <Recommendations />
+        <Partners />
       </div>
       
       <footer className="App-footer">

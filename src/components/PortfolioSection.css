@@ -3,14 +3,35 @@
 }
 .portfolio-section .first-title-div {
   margin-bottom: 113px;
+  display: grid;
+  grid-template-columns: 40% 1fr 1fr;
 }
-.portfolio-section .first-title-div .first-title {
+.portfolio-section .first-title-div .col-one {
+  grid-column: 1/2;
+}
+.portfolio-section .first-title-div .col-one .first-title {
   display: inline;
   font-size: 50px;
   line-height: 72px;
   font-weight: 400;
 }
-.portfolio-section .first-title-div .deco-icon {
+.portfolio-section .first-title-div .col-two {
+  grid-column: 2/3;
+  display: flex;
+  align-items: flex-end;
+}
+.portfolio-section .first-title-div .col-two p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 159%;
+}
+.portfolio-section .first-title-div .col-three {
+  grid-column: 3/4;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.portfolio-section .first-title-div .col-three .deco-icon {
   padding-left: 30px;
 }
 .portfolio-section .client-name {
@@ -55,9 +76,11 @@
 .portfolio-section .client-description2 {
   display: grid;
   grid-template-columns: 61% 31%;
+  gap: 50px;
   margin-bottom: 250px;
 }
 .portfolio-section .client-description2 .client-text {
+  grid-column: 2/3;
   float: right;
   padding: 13px 20px 0px 0px;
 }
@@ -80,7 +103,7 @@
   line-height: 38px;
 }
 .portfolio-section .client-description2 .client-foto {
-  padding-right: 113px;
+  grid-column: 1/2;
 }
 .portfolio-section .client-description2 .client-foto img {
   max-height: 410px;

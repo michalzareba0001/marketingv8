@@ -1,0 +1,28 @@
+.blue-button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #474EFF;
+  width: 152px;
+  height: 37px;
+  border-radius: 34px;
+  transition: all 500ms;
+  border: none !important;
+}
+.blue-button2 .button-text2 {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Unbounded";
+  text-align: center;
+  transition: color 500ms;
+}
+
+.blue-button2:hover {
+  cursor: pointer;
+  transition: all 500ms;
+}
+.blue-button2:hover .button-text2 {
+  transition: color 500ms;
+  color: #000000;
+}/*# sourceMappingURL=BlueButton2.css.map */
