@@ -11,6 +11,8 @@ import UnleashPotential from './components/UnleashPotential';
 import WhiteMenuSection from './components/WhiteMenuSection';
 import Recommendations from './components/Recommendations';
 import Partners from './components/Partners';
+import FooterMain from './components/FooterMain';
+import FooterBottomBar from './components/FooterBottomBar';
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
       </div>
       
       <footer className="App-footer">
+        <FooterMain />
+        <FooterBottomBar />
 
       </footer>
     </div>

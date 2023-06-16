@@ -10,6 +10,9 @@
 .white-menu-section .white-menu-grid .white-menu-left {
   grid-column: 1/2;
 }
+.white-menu-section .white-menu-grid .white-menu-left .description {
+  width: 72%;
+}
 .white-menu-section .white-menu-grid .white-menu-right {
   grid-column: 2/3;
   margin-top: 284px;

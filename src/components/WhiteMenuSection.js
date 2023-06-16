@@ -6,38 +6,38 @@ import BlueButton2 from './BlueButton2'
 function WhiteMenuSection() {
     useEffect(() => {
         const handleClick = (event) => {
-          const titleContainer = event.currentTarget;
-          const arrow = titleContainer.querySelector('.arrow-right');
-          const descriptionParent = titleContainer.querySelector('.description-parent');
-          const descriptionChild = titleContainer.querySelector('.description-child')
+            const titleContainer = event.currentTarget;
+            const arrow = titleContainer.querySelector('.arrow-right');
+            const descriptionParent = titleContainer.querySelector('.description-parent');
+            const descriptionChild = titleContainer.querySelector('.description-child')
 
-          if (arrow.classList.contains('arrow-right-active')) {
-            arrow.classList.remove('arrow-right-active');
-          } else {
-            arrow.classList.add('arrow-right-active');
-          }
-    
-          if (descriptionParent.classList.contains('description-parent-active')) {
-            descriptionParent.classList.remove('description-parent-active');
-            descriptionParent.style.height = 0;
-          } else {
-            descriptionParent.classList.add('description-parent-active');
-            descriptionParent.style.height = descriptionChild.offsetHeight + 50 + 'px';
-          }
+            if (arrow.classList.contains('arrow-right-active')) {
+                arrow.classList.remove('arrow-right-active');
+            } else {
+                arrow.classList.add('arrow-right-active');
+            }
+
+            if (descriptionParent.classList.contains('description-parent-active')) {
+                descriptionParent.classList.remove('description-parent-active');
+                descriptionParent.style.height = 0;
+            } else {
+                descriptionParent.classList.add('description-parent-active');
+                descriptionParent.style.height = descriptionChild.offsetHeight + 50 + 'px';
+            }
         };
-    
+
         const titleContainers = document.querySelectorAll('.title');
-    
+
         titleContainers.forEach((titleContainer) => {
-          titleContainer.addEventListener('click', handleClick);
+            titleContainer.addEventListener('click', handleClick);
         });
-    
+
         return () => {
-          titleContainers.forEach((titleContainer) => {
-            titleContainer.removeEventListener('click', handleClick);
-          });
+            titleContainers.forEach((titleContainer) => {
+                titleContainer.removeEventListener('click', handleClick);
+            });
         };
-      }, []);
+    }, []);
 
 
     return (
@@ -45,16 +45,18 @@ function WhiteMenuSection() {
             <div className='white-menu-grid'>
                 <div className='white-menu-left'>
                     <h3>
-                        Strategy is where we<br />
-                        plan how to unleash your
-                        business potential.
+                        Rely on a top-tier marketing agency that focuses on premium brands!
                     </h3>
-                    <p>
-                        Your business transformation challenges are unique. So every solution <br />
-                        we create is made to measure. Powering it all is a personalised, <br />
-                        battle-tested process we never stray from. It’s how we guarantee<br />
-                        exceptional results – every single time.
+                    <p className='description'>
+                    Unlock premium growth with our tailored strategy. Let the numbers speak for themselves. Discover the power of our premium e-commerce solutions today. Allow us to elevate your premium brand to new heights with our exceptional solutions and out of the box strategies.
                     </p>
+
+                    <div className='contact-form-div'>
+                        <p className='contact-description'>
+                        Looking to <span className='bold-text'>elevate your marketing strategy?</span><br/> Our premium marketing agency delivers<br/> exceptional results tailored to your business<br/> needs. Contact us today and unlock the potential of your brand.
+                        </p>
+
+                    </div>
 
                 </div>
                 <div className='white-menu-right'>

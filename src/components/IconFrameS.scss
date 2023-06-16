@@ -1,0 +1,20 @@
+.icon-frame-s{
+    border: 1px solid #474EFF;
+    border-radius: 100px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .icon-svg-s{
+        width: 24px;
+    }
+
+    .icon-title-s{
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 34px;
+        color: #474EFF;
+    }
+}

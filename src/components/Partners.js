@@ -16,6 +16,7 @@ function Partners() {
         <img src={GoogleP} alt='google partner logo'/>
         <img src={Adobe} alt='adobe logo' />
     </div>
+    
   )
 }
 

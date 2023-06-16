@@ -9,6 +9,9 @@
 
         .white-menu-left{
             grid-column: 1/2;
+            .description{
+                width: 72%;
+            }
         }
 
         .white-menu-right{

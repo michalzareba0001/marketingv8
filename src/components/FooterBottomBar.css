@@ -1,0 +1,33 @@
+.bottom-bar-container {
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+  margin-bottom: 67px;
+}
+.bottom-bar-container .col-one {
+  grid-column: 1/2;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-bar-container .col-two {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bottom-bar-container .col-two .gray-link {
+  color: #777777;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+.bottom-bar-container .col-three {
+  grid-column: 3/4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.bottom-bar-container .col-three p {
+  font-size: 16px;
+  font-weight: 300;
+}/*# sourceMappingURL=FooterBottomBar.css.map */
