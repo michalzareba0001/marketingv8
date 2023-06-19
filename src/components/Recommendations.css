@@ -70,4 +70,27 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
+}
+
+@media (max-width: 1500px) {
+  .recommendations-main .title-div .col-one h3 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .recommendations-main .content-div .text-div p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 1300px) {
+  .recommendations-main .title-div .col-one h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .recommendations-main .content-div .text-div p {
+    font-size: 10px;
+  }
+  .recommendations-main {
+    margin-bottom: 130px !important;
+  }
 }/*# sourceMappingURL=Recommendations.css.map */

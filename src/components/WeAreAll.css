@@ -76,4 +76,43 @@
 }
 .we-are-all-main .we-are-all-right-two {
   grid-column: 2/3;
+}
+
+@media (max-width: 1500px) {
+  .we-are-all-main .we-are-all-left h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .we-are-all-main .we-are-all-left p {
+    font-size: 12px;
+  }
+  .we-are-all-main .we-are-all-right-one .cytat {
+    width: 75%;
+  }
+  .we-are-all-main .we-are-all-right-one .cytat .cudzyslow-text {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .we-are-all-main .we-are-all-right-one .the-boss {
+    width: 75%;
+  }
+  .we-are-all-main .we-are-all-right-one .button-div {
+    width: 75%;
+  }
+}
+@media (max-width: 1300px) {
+  .we-are-all-main .we-are-all-left h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .we-are-all-main .we-are-all-left p {
+    font-size: 10px;
+  }
+  .we-are-all-main .we-are-all-right-one .cytat .cudzyslow-text {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .we-are-all-main .we-are-all-right-one .the-boss .boss-foto img {
+    max-width: 70px;
+  }
 }/*# sourceMappingURL=WeAreAll.css.map */

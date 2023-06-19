@@ -63,3 +63,39 @@
 
     }
 }
+
+@media (max-width: 1700px){
+    .content-container{
+        max-width: 1500px !important;
+    }
+}
+
+@media (max-width: 1500px){
+
+    .content-container{
+        max-width: 1250px !important;
+    }
+
+
+    .main-container .content-container .first-title{
+        font-size: 36px;
+        line-height: 55px;
+    }
+    .main-container .content-container .counters{
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 1300px){
+    .content-container{
+        max-width: 1024px !important;
+    }
+    .main-container .content-container .small-text{
+        font-size: 10px;
+    }
+    .main-container .content-container .first-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+}

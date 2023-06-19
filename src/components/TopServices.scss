@@ -53,3 +53,34 @@
 
 }
 
+@media (max-width: 1700px){
+    .top-services-main .title-section{
+        grid-template-columns: 40% 1fr 10%;
+
+    }
+}
+
+@media (max-width: 1500px){
+    .top-services-main .title-section .col-one h3{
+        font-size: 40px;
+        line-height: 55px;
+    }
+}
+
+@media (max-width: 1300px){
+    .top-services-main .title-section .col-one h3{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .top-services-main .title-section .col-two p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .top-services-main{
+        padding-bottom: 0px;
+    }
+
+}
+

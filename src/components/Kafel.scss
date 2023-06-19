@@ -21,3 +21,36 @@
         font-weight: 300;
     }
 }
+
+@media (max-width: 1700px){
+    .kafel-div{
+        max-width: 270px;
+        min-height: 330px;
+    }
+}
+
+@media (max-width: 1500px){
+    .kafel-div {
+        max-width: 245px;
+        min-height: 403px;
+    }
+}
+
+@media (max-width: 1300px){
+    .kafel-div h4{
+        font-size: 14px;
+        line-height: 22px;
+
+    }
+
+    .kafel-div p{
+        font-size: 10px;
+        line-height: 20px;;
+    }
+
+    .kafel-div {
+        max-width: 200px;
+        min-height: 322px;
+    }
+
+}

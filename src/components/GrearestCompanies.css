@@ -46,4 +46,21 @@
   display: flex;
   justify-content: flex-end;
   padding-top: 30px;
+}
+
+@media (max-width: 1500px) {
+  .container-grid .left .we-only-work {
+    font-size: 36px;
+  }
+}
+@media (max-width: 1300px) {
+  .container-grid {
+    grid-template-columns: 50% 50%;
+  }
+  .container-grid .left .we-only-work {
+    font-size: 30px;
+  }
+  .container-grid .left .we-are-global-agency {
+    font-size: 11px;
+  }
 }/*# sourceMappingURL=GrearestCompanies.css.map */

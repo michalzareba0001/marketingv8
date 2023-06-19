@@ -34,4 +34,26 @@ body {
 
 a {
   text-decoration: none;
+}
+
+@media (max-width: 1700px) {
+  .App-header,
+  .App-main,
+  .App-footer {
+    max-width: 1450px !important;
+  }
+}
+@media (max-width: 1500px) {
+  .App-header,
+  .App-main,
+  .App-footer {
+    max-width: 1250px !important;
+  }
+}
+@media (max-width: 1300px) {
+  .App-header,
+  .App-main,
+  .App-footer {
+    max-width: 1024px !important;
+  }
 }/*# sourceMappingURL=App.css.map */

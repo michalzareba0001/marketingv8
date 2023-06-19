@@ -2,7 +2,6 @@ $primary: #ffffff;
 $secondary: #474EFF;
 $text: #0F0F0F;
 $bg-color: #070708;
-;
 $content-desktop: 1636px;
 
 
@@ -49,4 +48,30 @@ body{
 a{
     text-decoration: none;
 }
+
+@media (max-width: 1700px){
+    .App-header,
+    .App-main,
+    .App-footer{
+        max-width: 1450px !important;
+    }
+}
+
+@media (max-width: 1500px){
+    .App-header,
+    .App-main,
+    .App-footer{
+        max-width: 1250px !important;
+    }
+}
+
+@media (max-width: 1300px){
+    .App-header,
+    .App-main,
+    .App-footer{
+        max-width: 1024px !important;
+    }
+}
+
+
 

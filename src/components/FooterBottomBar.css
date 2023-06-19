@@ -30,4 +30,26 @@
 .bottom-bar-container .col-three p {
   font-size: 16px;
   font-weight: 300;
+}
+
+@media (max-width: 1700px) {
+  .bottom-bar-container .col-three p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1500px) {
+  .bottom-bar-container .col-three p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1300px) {
+  .bottom-bar-container .col-two .gray-link {
+    font-size: 9px;
+  }
+  .bottom-bar-container .col-three p {
+    font-size: 9px;
+  }
+  .bottom-bar-container .col-one img {
+    max-width: 25px;
+  }
 }/*# sourceMappingURL=FooterBottomBar.css.map */

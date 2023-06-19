@@ -114,4 +114,59 @@
   display: flex;
   justify-content: flex-end;
   margin-top: 40px;
+}
+
+@media (max-width: 1700px) {
+  .client-description1 .client-foto img,
+  .client-description2 .client-foto img {
+    max-height: 380px !important;
+  }
+  .we-are-all-main .we-are-all-left h3 br {
+    display: none;
+  }
+  .we-are-all-main .we-are-all-right-one .cytat .cudzyslow-text br {
+    display: none;
+  }
+}
+@media (max-width: 1500px) {
+  .portfolio-section .first-title-div .col-one .first-title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .client-description1,
+  .client-description2 {
+    grid-template-columns: 50% 50% !important;
+  }
+  .client-description1 .client-text p,
+  .client-description2 .client-text p {
+    font-size: 12px !important;
+  }
+  .client-description1 .client-foto,
+  .client-description2 .client-foto {
+    display: flex;
+    align-items: center;
+  }
+  .client-description1 .client-foto img,
+  .client-description2 .client-foto img {
+    max-height: 240px !important;
+  }
+}
+@media (max-width: 1300px) {
+  .portfolio-section .first-title-div .col-one .first-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .portfolio-section .first-title-div .col-two p {
+    font-size: 12px;
+  }
+  .client-description1 .client-foto img,
+  .client-description2 .client-foto img {
+    max-height: 220px !important;
+  }
+  .portfolio-section .client-name {
+    font-size: 40px;
+  }
+  .client-description1 .client-text p, .client-description2 .client-text p {
+    font-size: 10px !important;
+  }
 }/*# sourceMappingURL=PortfolioSection.css.map */

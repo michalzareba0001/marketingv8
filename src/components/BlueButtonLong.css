@@ -27,4 +27,10 @@
 .blue-button-long:hover .button-text-long {
   transition: color 500ms;
   color: #000000;
+}
+
+@media (max-width: 1300px) {
+  .blue-button-long .button-text-long {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=BlueButtonLong.css.map */

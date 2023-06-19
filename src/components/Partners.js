@@ -2,7 +2,7 @@ import React from 'react'
 import Adobe from '../images/svg/adobe.svg'
 import Forbes from '../images/svg/forbes.svg'
 import Meta from '../images/svg/meta.svg'
-import Clutch from '../images/svg/Clutch.svg'
+import Clutch from '../images/svg/Clutchbig.svg'
 import GoogleP from '../images/svg/googlepartner.svg'
 import './Partners.css'
 
