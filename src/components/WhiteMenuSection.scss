@@ -218,3 +218,67 @@
         font-size: 20px;
     }
 }
+
+@media (max-width: 1024px){
+    .white-menu-left{
+        grid-column: 1/3 !important;
+        grid-row: 2/3;
+    }
+
+    .white-menu-right{
+        grid-column: 1/3 !important;
+        grid-row: 1/2;
+    }
+
+    .white-menu-section .white-menu-grid .white-menu-right{
+        margin-top: -100px;
+        margin-bottom: 100px;
+    }
+
+    .white-menu-section .white-menu-grid .white-menu-left .contact-form-div {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px){
+    .white-menu-section{
+        width: 100vw;
+        padding: 150px 20px 50px 20px;
+    }
+    .white-menu-section .white-menu-grid .white-menu-right .number span{
+        font-size: 11px;
+    }
+
+    .white-menu-section .white-menu-grid .white-menu-right .title h4{
+        font-size: 14px;
+    }
+
+    .white-menu-section .white-menu-grid .white-menu-right .title .arrow-right{
+        width: 46px;
+    }
+
+    .white-menu-section h3{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .white-menu-section .white-menu-grid .white-menu-left .contact-form-div .contact-form{
+        width: 100%;
+    }
+    .white-menu-section .white-menu-grid .white-menu-left .contact-form-div .contact-description {
+        width: 100%;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .white-menu-section .white-menu-grid .white-menu-left{
+        margin-top: -50px;
+    }
+
+    .white-menu-section .white-menu-grid .white-menu-left .contact-form-div .contact-form .deco-icons img{
+        width: 27px;
+    }
+
+}

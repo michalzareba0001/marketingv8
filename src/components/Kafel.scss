@@ -54,3 +54,17 @@
     }
 
 }
+
+@media (max-width: 1024px){
+    .kafel-div {
+        max-width: 250px;
+        min-height: 280px;
+    }
+}
+
+@media (max-width: 768px){
+    .kafel-div{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}

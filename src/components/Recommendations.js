@@ -1,6 +1,6 @@
 import React from 'react'
 import './Recommendations.css'
-import ClientsSay from '../images/webp/clientsSay_edited.webp'
+// import ClientsSay from '../images/webp/clientsSay_edited.webp'
 import RoundText from './RoundText'
 import CudzyslowGray from '../images/svg/cudzyslow-gray.svg'
 import ShifulIslam from '../images/webp/shifuislam_edited.webp'
@@ -15,7 +15,7 @@ function Recommendations() {
         
         </div>
         <div className='col-two'>
-          <img src={ClientsSay} alt ='Clients Say We deliver on Clutch' className='clients-say-mark' />
+          {/* <img src={ClientsSay} alt ='Clients Say We deliver on Clutch' className='clients-say-mark' /> */}
 
         </div>
         <div className='col-three'>

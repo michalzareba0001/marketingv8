@@ -91,6 +91,42 @@
     font-size: 10px;
   }
   .recommendations-main {
-    margin-bottom: 130px !important;
+    margin-bottom: 130px;
+  }
+}
+@media (max-width: 1024px) {
+  .recommendations-main {
+    margin-top: 100px;
+  }
+  .recommendations-main .title-div .col-one {
+    grid-column: 1/3;
+  }
+  .recommendations-main .content-div {
+    margin-top: -10px;
+  }
+}
+@media (max-width: 768px) {
+  .recommendations-main {
+    margin-top: 50px;
+    margin-bottom: 50px !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .recommendations-main .title-div .col-one {
+    grid-column: 1/4;
+  }
+  .recommendations-main .title-div .col-one h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .recommendations-main .content-div .photo-div img {
+    width: 100px;
+  }
+  .recommendations-main .content-div .text-div {
+    margin-top: 75px;
+  }
+  .recommendations-main .content-div .text-div .signature {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=Recommendations.css.map */

@@ -15,4 +15,14 @@
   font-weight: 300;
   line-height: 34px;
   color: #474EFF;
+}
+
+@media (max-width: 1024px) {
+  .icon-frame-s .icon-svg-s {
+    width: 15px;
+  }
+  .icon-frame-s .icon-title-s {
+    font-size: 15px;
+    line-height: 25px;
+  }
 }/*# sourceMappingURL=IconFrameS.css.map */

@@ -25,4 +25,12 @@
   .infinity-div img {
     max-height: 32px;
   }
+}
+@media (max-width: 768px) {
+  .infinity-div img {
+    max-height: 28px;
+  }
+  .infinity-div {
+    min-height: 30px;
+  }
 }/*# sourceMappingURL=InfinityAnimation.css.map */

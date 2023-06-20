@@ -73,5 +73,21 @@ a{
     }
 }
 
+@media (max-width: 1024px){
+    .App-header,
+    .App-main,
+    .App-footer{
+        max-width: 768px !important;
+    }       
+}
+
+@media (max-width: 768px){
+    .App-header,
+    .App-main,
+    .App-footer{
+        max-width: 90vw !important;
+    }  
+}
+
 
 

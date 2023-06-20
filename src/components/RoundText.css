@@ -28,4 +28,17 @@
   100% {
     transform: rotateZ(360deg);
   }
+}
+@media (max-width: 1024px) {
+  .round-text img {
+    max-width: 150px;
+  }
+}
+@media (max-width: 768px) {
+  .round-text .text-svg {
+    max-width: 90px;
+  }
+  .round-text .arrow-svg {
+    max-width: 22px;
+  }
 }/*# sourceMappingURL=RoundText.css.map */

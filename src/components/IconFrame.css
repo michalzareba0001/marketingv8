@@ -12,4 +12,23 @@
   font-weight: 300;
   line-height: 51px;
   color: #474EFF;
+}
+
+@media (max-width: 1024px) {
+  .icon-frame img {
+    width: 24px;
+  }
+  .icon-frame .icon-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .icon-frame img {
+    width: 15px;
+  }
+  .icon-frame .icon-title {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }/*# sourceMappingURL=IconFrame.css.map */

@@ -8,4 +8,10 @@
   .counter-uno-div .counter-uno-span {
     font-size: 43px;
   }
+}
+@media (max-width: 1024px) {
+  .counter-uno-div .counter-uno-span {
+    font-size: 25px;
+    line-height: 30px;
+  }
 }/*# sourceMappingURL=CounterUno.css.map */

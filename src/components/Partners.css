@@ -6,4 +6,13 @@
   align-items: center;
   justify-content: space-around;
   margin-bottom: 80px;
+}
+
+@media (max-width: 1024px) {
+  .partners-container {
+    height: 150px;
+  }
+  .partners-container img {
+    max-width: 10%;
+  }
 }/*# sourceMappingURL=Partners.css.map */

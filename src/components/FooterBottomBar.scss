@@ -62,3 +62,27 @@
         max-width: 25px;
     } 
 }
+
+@media (max-width: 1024px){
+    .bottom-bar-container .col-three p{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 768px){
+    .bottom-bar-container .col-one,
+    .bottom-bar-container .col-two,
+    .bottom-bar-container .col-three{
+        grid-column: 1/5;
+        margin-top: 10px;
+    }
+
+    .bottom-bar-container .col-three{
+        justify-content: center;
+    }
+
+    .bottom-bar-container {
+        margin-bottom: 20px;
+    }
+
+}

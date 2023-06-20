@@ -67,3 +67,51 @@
         }
     }
 }
+
+@media (max-width: 1024px){
+    .unleash-potential-main{
+        background-size: auto;
+        padding: 100px 0px 100px 0px;
+        margin: 100px 0px 100px 0px;
+    }
+
+    .unleash-potential-main h3{
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .unleash-potential-main .stars-section p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .unleash-potential-main  {
+        margin: 50px 0px 50px 0px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .unleash-potential-main h3 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .unleash-potential-main h3 br{
+        display: none;
+    }
+
+    .unleash-potential-main p{
+        font-size: 11px;
+    }
+
+    .unleash-potential-main .stars-section .col-one,
+    .unleash-potential-main .stars-section .col-two,
+    .unleash-potential-main .stars-section .col-three{
+        grid-column: 1/4;
+
+        img{
+            max-width: 90px;
+        }
+    }
+
+}
