@@ -13,6 +13,7 @@ import Recommendations from './components/Recommendations';
 import Partners from './components/Partners';
 import FooterMain from './components/FooterMain';
 import FooterBottomBar from './components/FooterBottomBar';
+import CookieSettings from './components/CookieSettings';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
       <footer className="App-footer">
         <FooterMain />
         <FooterBottomBar />
+        <CookieSettings />
 
       </footer>
     </div>

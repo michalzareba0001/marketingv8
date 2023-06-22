@@ -3,6 +3,7 @@ import './WeAreAll.css'
 import Cudzyslow from '../images/svg/cudzyslow.svg'
 import PawelFoto from '../images/webp/pawelfoto_edited.webp'
 import BlueButton from './BlueButton'
+import { Link } from 'react-scroll'
 
 function WeAreAll() {
     return (
@@ -38,9 +39,12 @@ function WeAreAll() {
                     </div>
                 </div>
                 <div className='button-div'>
+                <Link to='contact-form' smooth={true} duration={1000}>
+
                     <BlueButton
                         text='Contact us'
                     />
+                </Link>
                 </div>
             </div>
 

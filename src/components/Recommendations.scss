@@ -1,38 +1,42 @@
-.recommendations-main{
+.recommendations-main {
     margin: 255px 0px 255px 0px;
     width: 100%;
     background-image: url('../images/webp/ClientSayBg.webp');
     background-size: cover;
-    background-position: right; 
+    background-position: right;
     background-repeat: no-repeat;
 
-    .title-div{
+    .title-div {
         width: 100%;
         display: grid;
         grid-template-columns: 50% 25% 25%;
 
-        .col-one{
+        .col-one {
             grid-column: 1/2;
-            h3{
+
+            h3 {
                 font-size: 50px;
                 line-height: 72px;
                 font-weight: 400;
 
-                .sec-row{
+                .sec-row {
                     padding-left: 110px;
                 }
             }
         }
-        .col-two{
+
+        .col-two {
             display: flex;
             align-items: center;
             justify-content: flex-start;
             grid-column: 2/3;
-            .clients-say-mark{
+
+            .clients-say-mark {
                 max-height: 110px;
             }
         }
-        .col-three{
+
+        .col-three {
             display: flex;
             align-items: center;
             justify-content: flex-end;
@@ -40,37 +44,47 @@
         }
     }
 
-    .content-div{
+    .content-div {
         width: 80%;
         margin-top: 129px;
         display: grid;
         grid-template-columns: 20% 80%;
 
-        .photo-div{
+        .photo-div {
+            position: relative;
             grid-column: 1/2;
             padding-top: 20px;
-            img{
+
+            img {
+                position: absolute;
                 width: 148px;
+                opacity: 1;
+                transition: opacity 1000ms;
             }
         }
 
-        .text-div{
+        .text-div {
             grid-column: 2/3;
             position: relative;
-            .cudzyslow{
+            opacity: 1;
+            transition: opacity 1000ms;
+
+            .cudzyslow {
                 position: absolute;
                 top: 0;
             }
 
-            p{
-               font-size: 18px;
-               line-height: 30px;
-               font-weight: 300; 
-               padding-top: 40px;
+            p {
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 300;
+                padding-top: 40px;
+                position: absolute;
 
             }
-            .signature{
-                margin-top: 30px;
+
+            .signature {
+                margin-top: 220px;
                 margin-bottom: 30px;
                 font-size: 18px;
                 line-height: 30px;
@@ -79,75 +93,120 @@
         }
 
     }
+    .arrows-recommendations{
+        z-index: 10;
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 30px;
+
+        img:hover{
+            cursor: pointer;
+        }
+    }
+
 
 }
 
-@media (max-width: 1500px){
-    .recommendations-main .title-div .col-one h3{
+@media (max-width: 1700px){
+    .signature{
+        margin-top: 310px !important;
+    }
+}
+
+
+@media (max-width: 1500px) {
+    .recommendations-main .title-div .col-one h3 {
         font-size: 40px;
         line-height: 55px;
     }
-    .recommendations-main .content-div .text-div p{
+
+    .recommendations-main .content-div .text-div p {
         font-size: 14px;
         line-height: 20px;
     }
 
+    .signature{
+        margin-top: 200px !important;
+    }
+
 }
 
-@media (max-width: 1300px){
-    .recommendations-main .title-div .col-one h3{
+@media (max-width: 1300px) {
+    .recommendations-main .title-div .col-one h3 {
         font-size: 30px;
-        line-height: 40px;;
+        line-height: 40px;
+        ;
     }
-    .recommendations-main .content-div .text-div p{
+
+    .recommendations-main .content-div .text-div p {
         font-size: 10px;
     }
 
-    .recommendations-main{
+    .recommendations-main {
         margin-bottom: 130px;
     }
 }
 
-@media (max-width: 1024px){
-    .recommendations-main{
+@media (max-width: 1024px) {
+    .recommendations-main {
         margin-top: 100px;
     }
-    .recommendations-main .title-div .col-one{
+
+    .recommendations-main .title-div .col-one {
         grid-column: 1/3;
     }
 
-    .recommendations-main .content-div{
+    .recommendations-main .content-div {
         margin-top: -10px;
     }
 }
 
-@media (max-width: 768px){
-    .recommendations-main{
+@media (max-width: 768px) {
+    .recommendations-main {
         margin-top: 50px;
+        background-image: url('../images/webp/mobileBg2_edited.webp');
         margin-bottom: 50px !important;
-        background-size: cover;
-        background-position: center; 
+        background-size: contain;
+        background-position: center;
         background-repeat: no-repeat;
     }
-    
-    .recommendations-main .title-div .col-one{
+
+    .recommendations-main .title-div .col-one {
         grid-column: 1/4;
     }
-    .recommendations-main .title-div .col-one h3{
+
+    .recommendations-main .title-div .col-one h3 {
         font-size: 20px;
         line-height: 30px;
     }
 
-    .recommendations-main .content-div .photo-div img{
+    .recommendations-main .content-div .photo-div img {
         width: 100px;
     }
 
-    .recommendations-main .content-div .text-div{
+    .recommendations-main .content-div .text-div {
         margin-top: 75px;
     }
 
-    .recommendations-main .content-div .text-div .signature{
+    .recommendations-main .content-div .text-div .signature {
         font-size: 14px;
+    }
+
+    .recommendations-main .content-div {
+        width: 100%;
+    }
+
+    .recommendations-main .content-div .text-div{
+        grid-column: 1/3;
+    }
+    .signature{
+        margin-top: 280px !important;
+    }
+
+    .arrows-recommendations{
+        z-index: 100;
     }
 
 }

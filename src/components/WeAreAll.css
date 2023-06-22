@@ -131,6 +131,12 @@
   }
 }
 @media (max-width: 768px) {
+  .we-are-all-main {
+    background-image: url("../images/webp/mobileBg1_edited.webp");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
   .we-are-all-main .we-are-all-left h3 {
     font-size: 20px;
     line-height: 27px;

@@ -2,9 +2,7 @@ import React, { useEffect } from 'react'
 import './WhiteMenuSection.css'
 import Arrow2 from '../images/svg/Arrow2.svg'
 import BlueButton2 from './BlueButton2'
-import DecoIco1 from '../images/svg/decoIco1.svg'
-import DecoIco2 from '../images/svg/decoIco2.svg'
-import DecoIco3 from '../images/svg/decoIco3.svg'
+import ContactForm from './ContactForm'
 
 
 function WhiteMenuSection() {
@@ -55,26 +53,12 @@ function WhiteMenuSection() {
                         Unlock premium growth with our tailored strategy. Let the numbers speak for themselves. Discover the power of our premium e-commerce solutions today. Allow us to elevate your premium brand to new heights with our exceptional solutions and out of the box strategies.
                     </p>
 
-                    <div className='contact-form-div'>
+                    <div className='contact-form-div' id='contact-form'>
                         <p className='contact-description'>
                             Looking to <span className='bold-text'>elevate your marketing strategy?</span><br /> Our premium marketing agency delivers<br /> exceptional results tailored to your business<br /> needs. <span className='bold-text'>Contact us today</span> and unlock the<br /> potential of your brand.
                         </p>
 
-                        <form className='contact-form'>
-                            <input className='contact-input' placeholder='Company name' />
-                            <input className='contact-input' placeholder='Contact number' />
-                            <input className='contact-input' placeholder='E-mail' />
-                            <div className='deco-icons'>
-                                <img src={DecoIco1} alt='decoration icon' className='deco-icon' />
-                                <img src={DecoIco2} alt='decoration icon' className='deco-icon' />
-                                <img src={DecoIco3} alt='decoration icon' className='deco-icon' />
-                            </div>
-                            <div className='button-send'>
-                                <BlueButton2 
-                                text='Send'
-                                />
-                            </div>
-                        </form>
+                        <ContactForm />
 
                     </div>
 

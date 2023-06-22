@@ -14,6 +14,10 @@ $content-desktop: 1636px;
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: $bg-color;
     font-family: 'Unbounded';

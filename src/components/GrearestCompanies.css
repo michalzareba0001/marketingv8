@@ -90,4 +90,9 @@
   .container-grid .right .logos-grid > * {
     flex-basis: auto;
   }
+}
+@media (max-width: 385px) {
+  .container-grid .left .we-only-work {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=GrearestCompanies.css.map */

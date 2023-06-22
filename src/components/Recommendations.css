@@ -44,15 +44,21 @@
   grid-template-columns: 20% 80%;
 }
 .recommendations-main .content-div .photo-div {
+  position: relative;
   grid-column: 1/2;
   padding-top: 20px;
 }
 .recommendations-main .content-div .photo-div img {
+  position: absolute;
   width: 148px;
+  opacity: 1;
+  transition: opacity 1000ms;
 }
 .recommendations-main .content-div .text-div {
   grid-column: 2/3;
   position: relative;
+  opacity: 1;
+  transition: opacity 1000ms;
 }
 .recommendations-main .content-div .text-div .cudzyslow {
   position: absolute;
@@ -63,15 +69,32 @@
   line-height: 30px;
   font-weight: 300;
   padding-top: 40px;
+  position: absolute;
 }
 .recommendations-main .content-div .text-div .signature {
-  margin-top: 30px;
+  margin-top: 220px;
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
 }
+.recommendations-main .arrows-recommendations {
+  z-index: 10;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+.recommendations-main .arrows-recommendations img:hover {
+  cursor: pointer;
+}
 
+@media (max-width: 1700px) {
+  .signature {
+    margin-top: 310px !important;
+  }
+}
 @media (max-width: 1500px) {
   .recommendations-main .title-div .col-one h3 {
     font-size: 40px;
@@ -80,6 +103,9 @@
   .recommendations-main .content-div .text-div p {
     font-size: 14px;
     line-height: 20px;
+  }
+  .signature {
+    margin-top: 200px !important;
   }
 }
 @media (max-width: 1300px) {
@@ -108,8 +134,9 @@
 @media (max-width: 768px) {
   .recommendations-main {
     margin-top: 50px;
+    background-image: url("../images/webp/mobileBg2_edited.webp");
     margin-bottom: 50px !important;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -128,5 +155,17 @@
   }
   .recommendations-main .content-div .text-div .signature {
     font-size: 14px;
+  }
+  .recommendations-main .content-div {
+    width: 100%;
+  }
+  .recommendations-main .content-div .text-div {
+    grid-column: 1/3;
+  }
+  .signature {
+    margin-top: 280px !important;
+  }
+  .arrows-recommendations {
+    z-index: 100;
   }
 }/*# sourceMappingURL=Recommendations.css.map */
