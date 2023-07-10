@@ -33,7 +33,7 @@ function ContactForm() {
       email,
     };
 
-    fetch('http://localhost:3001/api/send-email', {
+    fetch('http://146.59.93.107:3001/api/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

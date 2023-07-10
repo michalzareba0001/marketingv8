@@ -8,6 +8,7 @@ import WeInviteYou from '../images/svg/weInviteYouFurther.svg'
 import Crystal from '../video/crystalCaleidoscope.mp4'
 import IconFrame from './IconFrame'
 import RoundText from './RoundText'
+import { Link } from 'react-scroll'
 
 function HeroSection() {
     return (
@@ -20,9 +21,11 @@ function HeroSection() {
                             marketing agency that helps B2B<br />
                             brands reach their goals and beyond.</p>
                         <div className='round-text-div'>
+                        <Link to='contact-form' smooth={true} duration={1500}>
                             <RoundText
 
                             />
+                        </Link>
 
                         </div>
                     </div>

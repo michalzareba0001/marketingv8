@@ -48,6 +48,11 @@
   margin-right: 50px;
   margin-left: auto;
 }
+.hero-section .right-column .video-container video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 99vh;
+}
 .hero-section .right-column .video-container::before {
   content: "";
   display: block;

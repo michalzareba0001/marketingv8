@@ -55,6 +55,11 @@
             position: relative;
             margin-right: 50px;
             margin-left: auto;
+
+            video{
+                object-fit: cover;
+                height: 99vh;
+            }
         }
 
         .video-container::before {

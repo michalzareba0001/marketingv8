@@ -69,16 +69,17 @@ function WhiteMenuSection() {
                         <div className='title'><h4>UX/UI Design</h4><img src={Arrow2} alt='arrow-right' className='arrow-right' />
                             <div className='description-parent'>
                                 <div className='description-child'>
-                                    <p>The significance of product design on your business fortunes cannot<br />
-                                        be overstated. When executed effectively, it can provide a significant competitive edge. However, when done poorly, it can be detrimental<br />
+                                    <p>The significance of product design on your business fortunes cannot
+                                        be overstated. When executed effectively, it can provide a significant competitive edge. However, when done poorly, it can be detrimental
                                         to your business.
                                         <br />
                                         <br />
-
-                                        Successful product design is a result of comprehensive research and strategy, incorporating data and insights. It lays the foundation for your product's features and enhances the overall quality of the customer experience. Ultimately, it increases the likelihood of commercial success. Be beyond with us by investing in exceptional design.</p>
+                                        Successful product design is a result of comprehensive research and strategy, incorporating data and insights. It lays the foundation for your product's features and enhances the overall quality of the customer experience. Ultimately, it increases the likelihood of commercial success. Be beyond with us by investing in exceptional design.
+                                    </p>
 
                                     <BlueButton2
                                         text='Free quote'
+                                        href='mailto:office@marketingv8.co'
                                     />
                                 </div>
                             </div>
@@ -87,94 +88,89 @@ function WhiteMenuSection() {
                         <div className='title'><h4>Web & Mobile Development</h4><img src={Arrow2} alt='arrow-right' className='arrow-right' />
                             <div className='description-parent'>
                                 <div className='description-child'>
-                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sapien vel velit lacinia bibendum. Nullam euismod, nisl vel tincidunt bibendum, nunc erat malesuada magna, vel suscipit sapien ex ut mauris. Sed euismod, quam eget lacinia bibendum, quam sapien vestibulum enim, vel ultrices velit metus non velit. Praesent euismod libero ac mauris lacinia, quis bibendum nulla fringilla. Donec euismod felis quis eros malesuada, vel aliquet nisi malesuada. Nulla facilisi. Sed vitae sapien eget turpis aliquam blandit. Sed euismod semper lectus, sed tincidunt eros interdum nec. Donec auctor risus ut libero ultrices, nec laoreet mi dictum. Donec sit amet enim at odio bibendum elementum. In hac habitasse platea dictumst. Sed in nibh sed elit faucibus pharetra. Fusce id mi ac augue luctus finibus. Nullam et velit vitae nunc commodo rhoncus non id quam. Donec eget semper ipsum.”
+                                    <p>We specialize in Web & Mobile Development, delivering innovative and functional solutions for your company. Our comprehensive services cover web and mobile application development, tailored to your project's needs and industry.
                                         <br />
                                         <br />
 
-                                        Successful product design is a result of comprehensive research and strategy, incorporating data and insights. It lays the foundation for your product's features and enhances the overall quality of the customer experience. Ultimately, it increases the likelihood of commercial success. Be beyond with us by investing in exceptional design.</p>
+                                        We leverage the latest technologies and trends to give your business a competitive edge. With our expertise, we'll help you establish a strong online presence and optimize your operations for enhanced efficiency.</p>
 
                                     <BlueButton2
                                         text='Free quote'
+                                        href='mailto:office@marketingv8.co'
                                     />
                                 </div>
                             </div></div>
                         <div className='number'><span>03</span></div>
                         <div className='title'><h4>SEO & SEM</h4><img src={Arrow2} alt='arrow-right' className='arrow-right' /> <div className='description-parent'>
                             <div className='description-child'>
-                                <p>The significance of product design on your business fortunes cannot<br />
-                                    be overstated. When executed effectively, it can provide a significant competitive edge. However, when done poorly, it can be detrimental<br />
-                                    to your business.
+                                <p>SEO & SEM are essential for high visibility and reaching your target audience. Our comprehensive services cover search engine optimization (SEO) and search engine marketing (SEM). Our team of experts understands search engine algorithms and can optimize your website effectively.
                                     <br />
                                     <br />
 
-                                    Successful product design is a result of comprehensive research and strategy, incorporating data and insights. It lays the foundation for your product's features and enhances the overall quality of the customer experience. Ultimately, it increases the likelihood of commercial success. Be beyond with us by investing in exceptional design.</p>
+                                    With our SEO & SEM services, you'll drive more traffic, improve rankings, and increase conversions. Whether you're a small business or a large e-commerce store, our professional services will help you succeed online and achieve your business goals.</p>
 
                                 <BlueButton2
                                     text='Free quote'
+                                    href='mailto:office@marketingv8.co'
                                 />
                             </div>
                         </div></div>
                         <div className='number'><span>04</span></div>
                         <div className='title'><h4>Data Analytics</h4><img src={Arrow2} alt='arrow-right' className='arrow-right' /> <div className='description-parent'>
                             <div className='description-child'>
-                                <p>The significance of product design on your business fortunes cannot<br />
-                                    be overstated. When executed effectively, it can provide a significant competitive edge. However, when done poorly, it can be detrimental<br />
-                                    to your business.
+                                <p>It's a powerful tool for extracting valuable insights and patterns from your data. Our comprehensive data analytics services cover data collection, cleansing, processing, and visualization. With our team of experts, we'll help you interpret and utilize data for informed decision-making.
                                     <br />
                                     <br />
-
-                                    Successful product design is a result of comprehensive research and strategy, incorporating data and insights. It lays the foundation for your product's features and enhances the overall quality of the customer experience. Ultimately, it increases the likelihood of commercial success. Be beyond with us by investing in exceptional design.</p>
+                                    Data analytics enables you to identify trends, understand customer preferences, optimize operations, and enhance marketing effectiveness. Our services provide insights into key business indicators and support strategic decision-making across industries.</p>
 
                                 <BlueButton2
                                     text='Free quote'
+                                    href='mailto:office@marketingv8.co'
                                 />
                             </div>
                         </div></div>
                         <div className='number'><span>05</span></div>
                         <div className='title'><h4>Product Management</h4><img src={Arrow2} alt='arrow-right' className='arrow-right' /> <div className='description-parent'>
                             <div className='description-child'>
-                                <p>The significance of product design on your business fortunes cannot<br />
-                                    be overstated. When executed effectively, it can provide a significant competitive edge. However, when done poorly, it can be detrimental<br />
-                                    to your business.
+                                <p>This essential process will enable you to effectively manage your products in the market. Our offering includes comprehensive product management services, from strategic planning to implementation and performance monitoring. Our team of experienced product managers possesses not only industry knowledge but also project management and communication skills.
                                     <br />
                                     <br />
 
-                                    Successful product design is a result of comprehensive research and strategy, incorporating data and insights. It lays the foundation for your product's features and enhances the overall quality of the customer experience. Ultimately, it increases the likelihood of commercial success. Be beyond with us by investing in exceptional design.</p>
+                                    With us, you can focus on creating innovative products, responding to customer needs, and adapting to a changing market. By partnering with us, you will gain support throughout the product lifecycle to achieve success and satisfaction for both your customers and your company.</p>
 
                                 <BlueButton2
                                     text='Free quote'
+                                    href='mailto:office@marketingv8.co'
                                 />
                             </div>
                         </div></div>
                         <div className='number'><span>06</span></div>
                         <div className='title'><h4>Content Marketing </h4><img src={Arrow2} alt='arrow-right' className='arrow-right' /> <div className='description-parent'>
                             <div className='description-child'>
-                                <p>The significance of product design on your business fortunes cannot<br />
-                                    be overstated. When executed effectively, it can provide a significant competitive edge. However, when done poorly, it can be detrimental<br />
-                                    to your business.
+                                <p>We are well aware that content marketing is a powerful strategy that helps attract and engage target audiences through valuable and relevant content. From strategy development to content creation and distribution, we are with you every step of the way. 
                                     <br />
                                     <br />
 
-                                    Successful product design is a result of comprehensive research and strategy, incorporating data and insights. It lays the foundation for your product's features and enhances the overall quality of the customer experience. Ultimately, it increases the likelihood of commercial success. Be beyond with us by investing in exceptional design.</p>
+                                    Our team understands the importance of creating engaging and informative content. With strategic content marketing, you can establish your brand as a thought leader, increase organic traffic, and build long-term customer relationships. Start creating valuable content with us and attract potential audiences!</p>
 
                                 <BlueButton2
                                     text='Free quote'
+                                    href='mailto:office@marketingv8.co'
                                 />
                             </div>
                         </div></div>
                         <div className='number'><span>07</span></div>
                         <div className='title'><h4>Business Growth</h4><img src={Arrow2} alt='arrow-right' className='arrow-right' /> <div className='description-parent'>
                             <div className='description-child'>
-                                <p>The significance of product design on your business fortunes cannot<br />
-                                    be overstated. When executed effectively, it can provide a significant competitive edge. However, when done poorly, it can be detrimental<br />
-                                    to your business.
+                                <p>We will elevate your business to new heights of success. We offer comprehensive business growth services, including strategic planning, process optimization, and market expansion. Our specialists will help you unlock the full potential of your brand, enabling it to dominate top sales rankings.
                                     <br />
                                     <br />
 
-                                    Successful product design is a result of comprehensive research and strategy, incorporating data and insights. It lays the foundation for your product's features and enhances the overall quality of the customer experience. Ultimately, it increases the likelihood of commercial success. Be beyond with us by investing in exceptional design.</p>
+                                    Gain a competitive edge and achieve long-term results through our partnership. Let us be your trusted partner on the journey to business growth and success.</p>
 
                                 <BlueButton2
                                     text='Free quote'
+                                    href='mailto:office@marketingv8.co'
                                 />
                             </div>
                         </div></div>
