@@ -1,11 +1,11 @@
 import React from 'react'
 import './FooterMain.css'
 import LogoBig from '../images/svg/v8logobig.svg'
-import BlueButtonLong from './BlueButtonLong'
 import DecoIco1 from '../images/svg/decoIco1.svg'
 import DecoIco2 from '../images/svg/decoIco2.svg'
 import DecoIco3 from '../images/svg/decoIco3.svg'
 import IconFrameS from './IconFrameS'
+import Newsletterform from './Newsletterform'
 
 function FooterMain() {
     return (
@@ -24,13 +24,7 @@ function FooterMain() {
                     <p>Get fresh digital news, insights,<br />
                         and advice from V8's experts and <br />
                         consultants - straight to your inbox.</p>
-                    <form>
-                        <input className='newsletter-input' id='e-mail' placeholder='Your e-mail' />
-                        <BlueButtonLong
-                            text='Get my free monthly advice'
-                        />
-
-                    </form>
+                    <Newsletterform />
                 </div>
 
             </div>
@@ -43,9 +37,9 @@ function FooterMain() {
                         South San Francisco,<br />
                         CA 94080</p>
 
-                    <a className='contact-link' href='tel:+14155826423'>+1 (415) 582-6423</a>
+                    <a className='contact-link' href='tel:+48535959510'>+48 535 959 510</a>
 
-                    <a className='contact-link' href='mailto:marketing@v8.com'>marketing@v8.com</a>
+                    <a className='contact-link' href='mailto:office@marketingv8.co'>office@marketingv8.co</a>
                 </div>
 
             </div>

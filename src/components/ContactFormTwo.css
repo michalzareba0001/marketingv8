@@ -1,0 +1,117 @@
+.contact-form-main-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.contact-form-main-container .contact-left {
+  grid-column: 1/2;
+}
+.contact-form-main-container .contact-right {
+  grid-column: 2/3;
+  background-color: #ffffff;
+  padding: 50px 65px 50px 65px;
+}
+.contact-form-main-container .contact-right .contact-title,
+.contact-form-main-container .contact-right .contact-x,
+.contact-form-main-container .contact-right .contact-description,
+.contact-form-main-container .contact-right .contact-label,
+.contact-form-main-container .contact-right .contact-priv-policy {
+  color: #000000;
+}
+.contact-form-main-container .contact-right .contact-form-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-tittle-div {
+  grid-column: 1/3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-tittle-div .contact-title {
+  font-size: 38px;
+  font-weight: 400;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-tittle-div .contact-x {
+  width: 35px;
+  height: 35px;
+  background-color: #D9D9D9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-tittle-div .contact-x:hover {
+  cursor: pointer;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-description {
+  grid-column: 1/3;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: -40px;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-first-name {
+  margin-top: -20px;
+  grid-column: 1/2;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-last-name {
+  margin-top: -20px;
+  grid-column: 2/3;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-email {
+  margin-top: -20px;
+  grid-column: 1/3;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-phone-nr {
+  margin-top: -20px;
+  grid-column: 1/2;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-what-source {
+  margin-top: -20px;
+  grid-column: 2/3;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-your-message {
+  margin-top: -20px;
+  grid-column: 1/3;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-privacy-checkbox {
+  margin-top: -20px;
+  grid-column: 1/3;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-privacy-checkbox label {
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 12px;
+}
+.contact-form-main-container .contact-right .contact-form-two .button-send-two {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: flex-end;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-label {
+  font-size: 16px;
+  font-weight: 300;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-input {
+  font-family: "Unbounded";
+  margin-top: 15px;
+  border: none;
+  border-bottom: 1px solid #777777;
+  padding: 12px 22px 12px 22px;
+  width: 100%;
+  background-color: #F5F5F5;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-input::-moz-placeholder {
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}
+.contact-form-main-container .contact-right .contact-form-two .contact-input::placeholder {
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}/*# sourceMappingURL=ContactFormTwo.css.map */

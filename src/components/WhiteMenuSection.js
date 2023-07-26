@@ -45,15 +45,15 @@ function WhiteMenuSection() {
     return (
         <div className='white-menu-section'>
             <div className='white-menu-grid'>
-                <div className='white-menu-left'>
+                <div className='white-menu-left' id='contact-form'>
                     <h3>
                         Rely on a top-tier marketing agency that focuses on premium brands!
                     </h3>
-                    <p className='description'>
+                    <p className='description' >
                         Unlock premium growth with our tailored strategy. Let the numbers speak for themselves. Discover the power of our premium e-commerce solutions today. Allow us to elevate your premium brand to new heights with our exceptional solutions and out of the box strategies.
                     </p>
 
-                    <div className='contact-form-div' id='contact-form'>
+                    <div className='contact-form-div' >
                         <p className='contact-description'>
                             Looking to <span className='bold-text'>elevate your marketing strategy?</span><br /> Our premium marketing agency delivers<br /> exceptional results tailored to your business<br /> needs. <span className='bold-text'>Contact us today</span> and unlock the<br /> potential of your brand.
                         </p>

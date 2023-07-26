@@ -14,8 +14,10 @@ import Partners from './components/Partners';
 import FooterMain from './components/FooterMain';
 import FooterBottomBar from './components/FooterBottomBar';
 import CookieSettings from './components/CookieSettings';
+import ContactFormTwo from './components/ContactFormTwo';
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -44,7 +46,9 @@ function App() {
         <Recommendations />
         <Partners />
       </div>
-      
+      <div className='contact-popup'>
+      <ContactFormTwo />
+      </div>
       <footer className="App-footer">
         <FooterMain />
         <FooterBottomBar />

@@ -1,6 +1,5 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
-const fs = require('fs');
 
 const app = express();
 app.use(express.json());
@@ -13,9 +12,9 @@ app.use((req, res, next) => {
   next();
 });
 
-// Endpoint obsługujący wysyłkę formularza kontaktowego
+// Endpoint obsługujący wysyłkę formularza
 app.post('/api/send-email', (req, res) => {
-  const { companyName, contactNumber, email, newsletter } = req.body;
+  const { companyName, contactNumber, email } = req.body;
 
   // Tworzenie transporteru poczty
   const transporter = nodemailer.createTransport({
@@ -37,7 +36,6 @@ app.post('/api/send-email', (req, res) => {
       Company Name: ${companyName}
       Contact Number: ${contactNumber}
       Email: ${email}
-      Newsletter: ${newsletter ? 'Tak' : 'Nie'}
     `,
   };
 
@@ -49,22 +47,6 @@ app.post('/api/send-email', (req, res) => {
     } else {
       console.log('E-mail został wysłany:', info.response);
       res.status(200).json({ message: 'E-mail został wysłany' });
-    }
-  });
-});
-
-// Endpoint obsługujący subskrypcję newslettera
-app.post('/api/newsletter', (req, res) => {
-  const { email } = req.body;
-
-  // Dodaj kod do zapisu adresu e-mail do pliku newsletter.php
-  const data = `Email: ${email}\n`;
-  fs.appendFile('newsletter.php', data, (error) => {
-    if (error) {
-      console.error('Błąd podczas zapisu do pliku newsletter.php:', error);
-      res.status(500).json({ error: 'Wystąpił błąd podczas zapisu subskrypcji' });
-    } else {
-      res.status(200).json({ message: 'Subskrypcja newslettera została zapisana' });
     }
   });
 });

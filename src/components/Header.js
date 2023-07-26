@@ -8,7 +8,7 @@ function Header() {
     <div className='header-main'>
         <div className='col-one'>
             <div className='v8logo'>
-              <a href='#'>
+              <a href='./index.html'>
                 <img src={Logo} alt='v8logo' className='v8logo-svg' />
               </a>
             </div>
@@ -16,7 +16,7 @@ function Header() {
         <div className='col-two'>
             
             <BlueButton
-            href = 'tel: 0123456'
+            href = 'tel:+48535959510'
             text = 'Talk with Boss'
             />
 

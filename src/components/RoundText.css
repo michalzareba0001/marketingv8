@@ -5,16 +5,23 @@
 }
 .round-text .text-svg {
   animation: spinAround 5000ms infinite linear;
+  border-radius: 50%;
+  transition: all 700ms;
 }
 .round-text .arrow-svg {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  transition: all 700ms;
 }
 
 .round-text:hover .text-svg {
-  animation-play-state: paused;
+  background-color: #ffffff;
+}
+
+.round-text:hover .arrow-svg {
+  filter: invert(1);
 }
 
 .arrow-svg:hover {

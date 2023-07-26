@@ -7,6 +7,7 @@ import DecoIco2 from '../images/svg/decoIco4.svg'
 import DecoIco3 from '../images/svg/decoIco1.svg'
 import DecoIco4 from '../images/svg/decoIco5.svg'
 import DecoIco5 from '../images/svg/decoIco3.svg'
+import { Link } from 'react-scroll'
 
 
 
@@ -27,10 +28,13 @@ function TopServices() {
                     </p>
                 </div>
                 <div className='col-three'>
+                <Link to='contact-form' smooth={true} duration={1000}>
+
                     <RoundText
                         height = '109px'
                         arrwidth = '30px'
                     />
+                </Link>
 
                 </div>
 

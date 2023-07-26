@@ -23,7 +23,7 @@ function CounterUno() {
         } else {
           setCount(count + 1)
         }
-      }, 250)
+      }, 50)
       return () => clearInterval(interval)
     }
   }, [count, isVisible])

@@ -11,7 +11,7 @@ function UnleashPotential() {
         with us and go beyond.</h3>
       <div className='button-div'>
         <BlueButton
-          href ="tel:123456"
+          href ="tel:+48535959510"
           text='Let’s Talk'
         />
       </div>

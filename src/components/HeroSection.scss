@@ -8,6 +8,72 @@
         overflow: visible;
         z-index: 20;
 
+        .slogan-div{
+            h1{
+                font-size: 80px;
+            }
+            .first-row{
+                width: 950px;
+                display: flex;
+            }
+
+           .icons-div{
+            position: relative;
+            width: 150px;
+            margin-left: 5px;
+            .o-icon{
+                position: absolute;
+                bottom: 20px;
+                animation: o-icon-anim 9s infinite ease-in-out;
+            }
+            .inf-icon{
+                position: absolute;
+                bottom: 20px;
+                opacity: 0;
+                animation: inf-icon-anim 9s infinite ease-in-out;
+            }
+
+            @keyframes o-icon-anim {
+                0%{
+                    opacity: 1;
+                    filter: blur(0px)
+                }
+                30%{
+                    opacity: 1;
+                }
+                50%{
+                    opacity: 0;
+                    filter: blur(20px)
+                }
+                70%{
+                    opacity: 1;
+                }
+                100%{
+                    opacity: 1;
+                    filter: blur(0px)
+                }
+                
+            }
+
+            @keyframes inf-icon-anim {
+                0%{
+                    opacity: 0;
+                    filter: blur(20px)
+                }
+                50%{
+                    opacity: 1;
+                    filter: blur(0px)
+                }
+                100%{
+                    opacity: 0;
+                    filter: blur(20px)
+                }
+                
+            }
+
+           }
+        }
+
         .hero-description {
             width: 100%;
             display: grid;
@@ -84,8 +150,23 @@
 }
 
 @media (max-width: 1024px) {
-    .main-slogan {
-        max-width: 90vw;
+    .slogan-div{
+        h1{
+            font-size: 55px !important;
+        }
+        .first-row{
+            width: 700px !important;
+        }
+        .icons-div{
+            width: 120px !important;
+
+        }
+        .o-icon,
+        .inf-icon{
+            bottom: 10px !important;
+            height: 50px !important;
+        }
+
     }
 
     .deco-ico-1 .icon-frame {
@@ -103,6 +184,26 @@
 }
 
 @media (max-width: 768px) {
+    .slogan-div{
+        h1{
+            font-size: 26px !important;
+        }
+        .first-row{
+            width: 350px !important;
+        }
+        .icons-div{
+            margin-left: 1px !important;
+            width: 52px !important;
+
+        }
+        .o-icon,
+        .inf-icon{
+            bottom: 5px !important;
+            height: 22px !important;
+        }
+
+    }
+
     .hero-section .left-column .hero-description {
         grid-template-columns: 1fr;
         width: 90vw;

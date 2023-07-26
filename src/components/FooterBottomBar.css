@@ -44,6 +44,7 @@
   border-left: 5px double #ffffff;
   border-right: 5px double #ffffff;
   transition: height 700ms, opacity 700ms;
+  overflow: auto;
 }
 .bottom-bar-container .privacy-policy-container .privacy-policy-div {
   padding: 20px 20px 20px 20px;
@@ -58,6 +59,10 @@
 }
 .bottom-bar-container .privacy-policy-container .privacy-policy-div p {
   margin-top: 50px;
+  font-size: 16px;
+}
+.bottom-bar-container .privacy-policy-container .privacy-policy-div ul {
+  margin-left: 50px;
 }
 .bottom-bar-container .cookie-policy-container {
   position: absolute;
@@ -85,6 +90,9 @@
 }
 .bottom-bar-container .cookie-policy-container .cookie-policy-div p {
   margin-top: 50px;
+}
+.bottom-bar-container .cookie-policy-container .cookie-policy-div a {
+  color: #ffffff;
 }
 
 .policy-active {
@@ -143,6 +151,6 @@
   }
   .privacy-policy-container p,
   .cookie-policy-container p {
-    font-size: 12px;
+    font-size: 12px !important;
   }
 }/*# sourceMappingURL=FooterBottomBar.css.map */

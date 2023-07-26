@@ -1,9 +1,10 @@
 import React from 'react'
 import './HeroSection.css'
-import Slogan from '../images/svg/ideasConnect.svg'
 import DecoIco1 from '../images/svg/decoIco1.svg'
 import DecoIco2 from '../images/svg/decoIco2.svg'
 import DecoIco3 from '../images/svg/decoIco3.svg'
+import Oicon from '../images/svg/O.svg'
+import Inficon from '../images/svg/8.svg'
 import WeInviteYou from '../images/svg/weInviteYouFurther.svg'
 import Crystal from '../video/crystalCaleidoscope.mp4'
 import IconFrame from './IconFrame'
@@ -14,18 +15,21 @@ function HeroSection() {
     return (
         <div className='hero-section'>
             <div className='left-column'>
-                <img className='main-slogan' src={Slogan} alt='Ideas Connect Throught' />
+                <div className='slogan-div'>
+                    <div className='first-row'><h1>IDEAS C</h1><div className='icons-div'><img className='o-icon' src={Oicon} alt='deco-icon' /><img className='inf-icon' src={Inficon} alt='deco-icon' /></div><h1>NNECT</h1></div>
+                    <div className='second-row'><h1>THROUGH</h1></div>
+                </div>
                 <div className='hero-description'>
                     <div className='description-left'>
                         <p className='description-text'><strong>Marketing V8</strong> is a full-service growth<br />
                             marketing agency that helps B2B<br />
                             brands reach their goals and beyond.</p>
                         <div className='round-text-div'>
-                        <Link to='contact-form' smooth={true} duration={1500}>
-                            <RoundText
+                            <Link to='contact-form' smooth={true} duration={2000}>
+                                <RoundText
 
-                            />
-                        </Link>
+                                />
+                            </Link>
 
                         </div>
                     </div>
