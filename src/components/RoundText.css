@@ -6,6 +6,7 @@
 .round-text .text-svg {
   animation: spinAround 5000ms infinite linear;
   border-radius: 50%;
+  padding: 7px;
   transition: all 700ms;
 }
 .round-text .arrow-svg {
@@ -18,6 +19,7 @@
 
 .round-text:hover .text-svg {
   background-color: #ffffff;
+  animation: spinAround 15000ms infinite linear;
 }
 
 .round-text:hover .arrow-svg {

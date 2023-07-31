@@ -1,6 +1,6 @@
 import React from 'react'
 import './GrearestCompanies.css'
-import BlueButton from './BlueButton'
+import BlueButton3 from './BlueButton3'
 import LogoBrick from './LogoBrick'
 import HivioLogo from '../images/svg/hiviologo.svg'
 import TcoLogo from '../images/svg/tcologo.svg'
@@ -11,7 +11,6 @@ import HavenLogo from '../images/svg/hevenlogo.svg'
 import HiltonLogo from '../images/svg/hilton.svg'
 import SheratonLogo from '../images/svg/sheratonlogo.svg'
 import JaguarLogo from '../images/svg/jaguarlogo.svg'
-import { Link } from 'react-scroll'
 
 
 
@@ -29,11 +28,9 @@ function GreatestCompanies() {
                 strategies, optimizing conversions, and dissecting campaigns for extraordinary success.
                 </p>
                 <div className='contact-us-button'>
-                    <Link to='contact-form' smooth={true} duration={1000}>
-                    <BlueButton
+                    <BlueButton3
                         text='Contact us'
                     />
-                    </Link>
                 </div>
             </div>
             <div className='right'>

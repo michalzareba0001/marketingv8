@@ -6,7 +6,6 @@ import ShifulIslam from '../images/webp/shifuislam_edited.webp';
 import RafaelKulas from '../images/webp/rafaelkulas_edited.webp';
 import ArrowRight from '../images/svg/ArrowRightWhite.svg';
 import ArrowLeft from '../images/svg/ArrowLeftWhite.svg';
-import { Link } from 'react-scroll'
 
 function Recommendations() {
   const [currentSection, setCurrentSection] = useState(0);
@@ -45,10 +44,9 @@ function Recommendations() {
         </div>
         <div className='col-two'></div>
         <div className='col-three'>
-        <Link to='contact-form' smooth={true} duration={600}>
 
           <RoundText height='110px' arrwidth='30px' />
-        </Link>
+     
         </div>
       </div>
 

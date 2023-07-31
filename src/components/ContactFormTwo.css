@@ -1,10 +1,13 @@
 .contact-form-main-container {
+  height: 100vh;
   width: 100%;
   display: grid;
+  overflow: scroll;
   grid-template-columns: 60% 40%;
 }
 .contact-form-main-container .contact-left {
   grid-column: 1/2;
+  background-color: rgba(7, 7, 8, 0.6980392157);
 }
 .contact-form-main-container .contact-right {
   grid-column: 2/3;
@@ -114,4 +117,65 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
+}
+
+@media (max-width: 1024px) {
+  .contact-form-main-container {
+    grid-template-columns: 40% 60%;
+  }
+  .contact-form-main-container .contact-right .contact-title {
+    font-size: 28px !important;
+  }
+  .contact-form-main-container .contact-right .contact-input::-moz-placeholder {
+    font-size: 14px !important;
+  }
+  .contact-form-main-container .contact-right .contact-description,
+  .contact-form-main-container .contact-right .contact-label,
+  .contact-form-main-container .contact-right .contact-privacy-checkbox label,
+  .contact-form-main-container .contact-right .contact-input,
+  .contact-form-main-container .contact-right .contact-input::placeholder {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 768px) {
+  .contact-form-main-container {
+    grid-template-columns: 1fr;
+  }
+  .contact-form-main-container .contact-left {
+    display: none;
+  }
+  .contact-form-main-container .contact-right {
+    grid-column: 1/2;
+    padding: 20px 40px 20px 40px;
+  }
+  .contact-form-main-container .contact-right .contact-form-two {
+    gap: 20px;
+  }
+  .contact-form-main-container .contact-right .contact-form-two .contact-title {
+    font-size: 22px !important;
+  }
+  .contact-form-main-container .contact-right .contact-form-two .contact-description {
+    margin-top: -10px;
+    font-size: 12px !important;
+  }
+  .contact-form-main-container .contact-right .contact-form-two .contact-input::-moz-placeholder {
+    font-size: 10px !important;
+  }
+  .contact-form-main-container .contact-right .contact-form-two .contact-label,
+  .contact-form-main-container .contact-right .contact-form-two .contact-privacy-checkbox label,
+  .contact-form-main-container .contact-right .contact-form-two .contact-input,
+  .contact-form-main-container .contact-right .contact-form-two .contact-input::placeholder {
+    font-size: 10px !important;
+  }
+  .contact-form-main-container .contact-right .contact-form-two .contact-first-name,
+  .contact-form-main-container .contact-right .contact-form-two .contact-last-name,
+  .contact-form-main-container .contact-right .contact-form-two .contact-email,
+  .contact-form-main-container .contact-right .contact-form-two .contact-phone-nr,
+  .contact-form-main-container .contact-right .contact-form-two .contact-what-source,
+  .contact-form-main-container .contact-right .contact-form-two .contact-your-message {
+    margin-top: 0px;
+  }
+  .contact-form-main-container .contact-right .contact-form-two .contact-phone-nr .contact-label {
+    height: 24px;
+  }
 }/*# sourceMappingURL=ContactFormTwo.css.map */

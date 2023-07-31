@@ -2,10 +2,15 @@ import React, { useEffect } from 'react'
 import './WhiteMenuSection.css'
 import Arrow2 from '../images/svg/Arrow2.svg'
 import BlueButton2 from './BlueButton2'
-import ContactForm from './ContactForm'
+import BlueButton3 from './BlueButton3'
+import DecoIco1 from '../images/svg/decoIco1.svg'
+import DecoIco2 from '../images/svg/decoIco2.svg'
+import DecoIco3 from '../images/svg/decoIco3.svg'
+
 
 
 function WhiteMenuSection() {
+
     useEffect(() => {
         const handleClick = (event) => {
             const titleContainer = event.currentTarget;
@@ -39,8 +44,8 @@ function WhiteMenuSection() {
                 titleContainer.removeEventListener('click', handleClick);
             });
         };
+        
     }, []);
-
 
     return (
         <div className='white-menu-section'>
@@ -57,9 +62,19 @@ function WhiteMenuSection() {
                         <p className='contact-description'>
                             Looking to <span className='bold-text'>elevate your marketing strategy?</span><br /> Our premium marketing agency delivers<br /> exceptional results tailored to your business<br /> needs. <span className='bold-text'>Contact us today</span> and unlock the<br /> potential of your brand.
                         </p>
+                        <div className='icons-and-button'>
 
-                        <ContactForm />
+                            <div className='deco-icons'>
 
+                                <img src={DecoIco1} alt='decoration icon' className='deco-icon' />
+                                <img src={DecoIco2} alt='decoration icon' className='deco-icon' />
+                                <img src={DecoIco3} alt='decoration icon' className='deco-icon' />
+                            </div>
+                            <div className='button-send'>
+                                <BlueButton3 text='Send messagee' className='send-message'/>
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
@@ -147,7 +162,7 @@ function WhiteMenuSection() {
                         <div className='number'><span>06</span></div>
                         <div className='title'><h4>Content Marketing </h4><img src={Arrow2} alt='arrow-right' className='arrow-right' /> <div className='description-parent'>
                             <div className='description-child'>
-                                <p>We are well aware that content marketing is a powerful strategy that helps attract and engage target audiences through valuable and relevant content. From strategy development to content creation and distribution, we are with you every step of the way. 
+                                <p>We are well aware that content marketing is a powerful strategy that helps attract and engage target audiences through valuable and relevant content. From strategy development to content creation and distribution, we are with you every step of the way.
                                     <br />
                                     <br />
 

@@ -61,8 +61,10 @@ function ContactFormTwo() {
         fd.append('yourMessage', yourMessage);
 
         fetch('https://marketingv8.co/contact.php', {
+            mode: 'no-cors',
             method: 'POST',
             body: fd,
+            data: fd
         })
             .then((response) => {
                 if (!response.ok) {
@@ -80,6 +82,19 @@ function ContactFormTwo() {
             });
     };
 
+    const handleXClick = () => {
+        const contactPopup = document.querySelector('.contact-popup');
+        if (contactPopup) {
+          if(contactPopup.classList.contains('contact-popup-active')){
+            contactPopup.classList.remove('contact-popup-active');
+          }
+          else{
+            contactPopup.classList.add('contact-popup-active');
+          }
+        }
+
+    };
+
     return (
         <div className='contact-form-main-container'>
             <div className='contact-left'>
@@ -89,7 +104,7 @@ function ContactFormTwo() {
                 <form className='contact-form-two' onSubmit={handleSubmit}>
                     <div className='contact-tittle-div'>
                         <h2 className='contact-title'>Send us a message</h2>
-                        <span className='contact-x'>x</span>
+                        <span className='contact-x' onClick={handleXClick}>x</span>
                     </div>
                     <h4 className='contact-description'>Prefer e-mail? hello@marketingv8.co</h4>
                     <div className='contact-first-name'>

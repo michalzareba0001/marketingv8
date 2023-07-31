@@ -6,6 +6,7 @@
     .text-svg{
         animation: spinAround 5000ms infinite linear;
         border-radius: 50%;
+        padding: 7px;
         transition: all 700ms;
     }
 
@@ -22,12 +23,14 @@
 .round-text:hover .text-svg {
     //animation-play-state: paused;
     background-color: #ffffff;
+    animation: spinAround 15000ms infinite linear;
 }
 
 .round-text:hover .arrow-svg{
     filter: invert(1);
+};
 
-}
+
 
 .arrow-svg:hover{
     cursor: pointer;
