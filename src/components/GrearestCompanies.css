@@ -19,12 +19,13 @@
   padding-left: 120px;
 }
 .container-grid .left .we-are-global-agency {
+  font-family: "satoshi", serif;
   font-size: 14px;
   padding-left: 180px;
   margin-top: 47px;
   margin-bottom: 47px;
   line-height: 22px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .container-grid .left .contact-us-button {
   padding-left: 232px;

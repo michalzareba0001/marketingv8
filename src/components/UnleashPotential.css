@@ -19,9 +19,10 @@
   margin: 42px 0px 42px 0px;
 }
 .unleash-potential-main p {
+  font-family: "satoshi", serif;
   margin: 42px 0px 42px 0px;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 22px;
 }
 .unleash-potential-main .stars-section {
@@ -51,6 +52,7 @@
   grid-column: 3/4;
 }
 .unleash-potential-main .stars-section p {
+  font-family: "Unbounded";
   text-align: center;
   font-size: 13px;
   line-height: 17px;

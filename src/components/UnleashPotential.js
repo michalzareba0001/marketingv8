@@ -1,6 +1,7 @@
 import React from 'react'
 import './UnleashPotential.css'
 import BlueButton from './BlueButton'
+import BlueButton2 from './BlueButton2'
 import FiveStars from '../images/svg/5stars.svg'
 
 
@@ -10,7 +11,7 @@ function UnleashPotential() {
       <h3>Unleash your business potential <br />
         with us and go beyond.</h3>
       <div className='button-div'>
-        <BlueButton
+        <BlueButton2
           href ="tel:+48535959510"
           text='Let’s Talk'
         />

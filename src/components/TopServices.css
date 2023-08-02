@@ -27,9 +27,10 @@
   padding-bottom: 10px;
 }
 .top-services-main .title-section .col-two p {
-  font-size: 14px;
+  font-family: "satoshi", serif;
+  font-size: 18px;
   line-height: 22px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .top-services-main .title-section .col-three {
   max-height: 142px;

@@ -35,21 +35,21 @@ function HeroSection() {
                             <IconFrame
                                 icon={DecoIco1}
                                 text='STRATEGY'
-                                width='332px'
+                                width='fit-content'
                             />
                         </div>
                         <div className='deco-ico-2'>
                             <IconFrame
                                 icon={DecoIco2}
                                 text='CREATIVITY'
-                                width='363px'
+                                width='fit-content'
                             />
                         </div>
                         <div className='deco-ico-3'>
                             <IconFrame
                                 icon={DecoIco3}
                                 text='BEYOND'
-                                width='282px'
+                                width='fit-content'
                             />
                         </div>
 

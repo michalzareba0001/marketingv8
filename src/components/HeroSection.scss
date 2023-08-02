@@ -75,6 +75,8 @@
         }
 
         .hero-description {
+            font-family: 'satoshi', serif;
+            font-weight: 400;
             width: 100%;
             display: grid;
             grid-template-columns: 505px 1fr;
@@ -114,9 +116,9 @@
         z-index: 10;
 
         .video-container {
-            min-width: 80%;
-            max-width: 800px;
-            height: 99vh;
+            min-width: 81%;
+            max-width: 811px;
+            height: 82vh;
             overflow: hidden;
             position: relative;
             margin-right: 50px;
@@ -124,7 +126,7 @@
 
             video{
                 object-fit: cover;
-                height: 99vh;
+                height: 82vh;
             }
         }
 

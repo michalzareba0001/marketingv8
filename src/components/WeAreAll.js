@@ -14,8 +14,9 @@ function WeAreAll() {
                     business's full potential!
                 </h3>
                 <p>
-                    Explore the potential of your business with our world-class solutions and<br/> expert strategies. We will help your premium brand rise to new heights<br/> and achieve exceptional growth through our passion for excellence<br/>
-                    and commitment to your success. Impossible? Not with us!
+                    Explore the potential of your business with our world-class solutions and expert strategies.<br/>
+                    We will help your premium brand rise to new heights and achieve exceptional growth through<br/>
+                    our passion for excellence and commitment to your success. Impossible? Not with us!
                 </p>
             </div>
             <div className='we-are-all-right-one'>

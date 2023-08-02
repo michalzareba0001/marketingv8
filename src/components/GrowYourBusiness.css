@@ -13,8 +13,9 @@
   padding: 157px 0px 105px 0px;
 }
 .main-container .content-container .small-text {
+  font-family: "satoshi";
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 20px;
 }
 .main-container .content-container .first-title {
@@ -47,10 +48,11 @@
   margin-bottom: 30px;
 }
 .main-container .content-container .counters .counter-description {
+  font-family: "satoshi", serif;
   margin-top: 24px;
   font-size: 13px;
   line-height: 17px;
-  font-weight: 300;
+  font-weight: 400;
   color: #DCDBDB;
 }
 

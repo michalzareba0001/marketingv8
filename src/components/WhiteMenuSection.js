@@ -71,7 +71,7 @@ function WhiteMenuSection() {
                                 <img src={DecoIco3} alt='decoration icon' className='deco-icon' />
                             </div>
                             <div className='button-send'>
-                                <BlueButton3 text='Send messagee' className='send-message'/>
+                                <BlueButton3 text='Send message' className='send-message'/>
                             </div>
 
                         </div>

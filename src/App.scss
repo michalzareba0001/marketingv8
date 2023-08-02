@@ -6,7 +6,37 @@ $content-desktop: 1636px;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
- 
+@font-face {
+    font-family: 'satoshi';
+    src: url('./fonts/Satoshi-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'satoshi';
+    src: url('./fonts/Satoshi-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'satoshi';
+    src: url('./fonts/Satoshi-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'satoshi';
+    src: url('./fonts/Satoshi-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'satoshi';
+    src: url('./fonts/Satoshi-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+
 
 *{
     box-sizing: border-box;
@@ -23,6 +53,7 @@ body{
     font-family: 'Unbounded';
     color: $primary;
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 .App{

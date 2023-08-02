@@ -32,11 +32,12 @@ function PortfolioSection() {
             <div className='client-description1'>
                 <div className='client-text'>
                     <h4 className='client-name'>Sesvan</h4>
-                    <p>SESVAN is a family business that, with the support of a dedicated team, has built a strong B2B organization with a solid position in the Scandinavian market. Our challenge at that time was to create and implement a complete website, practically from A to Z, while keeping in mind the needs and requirements of that market, which is significantly different. We knew that the Northern European region had to be ours!
-                        <br />
-                        <br />
+                    <p className='desc-big'>
+                        For the SESVAN brand, a fully adapted website was developed, meeting customer <br /> expectations and specific market requirements.
+                    </p>
 
-                        We conducted dozens of studies, which allowed us to know precisely which specific areas the brand should focus on. Based on various analyses, we created a website that perfectly fit into the local market. The strategy we adopted achieved real success, as evidenced by the results of our actions.
+                    <p className='desc-small'>
+                        We have conducted numerous studies to identify key areas of concentration for the brand. Our strategy has been a significant success, which is<br /> confirmed by the results of our activities.
                     </p>
 
 
@@ -54,33 +55,36 @@ function PortfolioSection() {
                 </div>
                 <div className='client-text'>
                     <h4 className='client-name'>Heven</h4>
-                    <p>For the Heaven brand, perfection is the key word when it comes to any marketing activities. The brand's clothes are characterized by
-                        high-quality production and durability, which makes them last for a long time and maintain their stylish appearance. As the brand operates mainly on the international market, we knew that the bar was set quite high. Nevertheless, we faced it and met all of our client's needs, which included refreshing the graphic visualization and launching SEO activities.
-                        <br />
-                        <br />
+                    <p className='desc-big'>
+                        For our international client, we took on the challenge of refreshing the visual page<br />
+                        and optimizing the visibility in search engines.
+                    </p>
+                    <p className='desc-small'>
 
-                        Therefore, we took care of creating a marketing strategy, as well as implementing marketing and sales funnels. Moreover, our goals included implementing an e-commerce system and designing a complete visual identity system so that the brand had real chances of creating a strong image in the clothing industry.
+                        The result was the implementation of a modern e-commerce system<br />
+                        and a coherent visual identification system, which allowed the brand<br />
+                        to build a strong image in the fashion world.
 
 
                     </p>
                 </div>
             </div>
 
-            <div className='client-description1'>
+            <div className='client-description3'>
                 <div className='client-text'>
                     <h4 className='client-name'>Hivio</h4>
-                    <p>Our agency had the opportunity to work with Hivio, a brand specializing in premium ventilation systems. Our task was to create a comprehensive marketing strategy to enhance their brand awareness, reach their target audience, and ultimately increase sales.
-                        <br />
-                        <br />
-
-                        To drive targeted traffic to the website, we implemented a strategic digital marketing campaign that included search engine optimization (SEO), pay-per-click (PPC) advertising, and social media marketing. Through careful keyword research and ad targeting, we were able to reach potential customers actively seeking ventilation solutions.
-                        In addition to online efforts, we executed offline marketing activities such as participating in industry trade shows and organizing product demonstrations.
-
+                    <p className='desc-big'>
+                        The marketing strategy was crafted, resulting<br/>
+                        in increased brand awareness, targeted<br/>
+                        customer reach, and boosted sales.
+                    </p>
+                    <p className='desc-small'>
+                        Digital marketing campaign with SEO, PPC, and social media. Offline<br/> activities included trade fair participation and product demonstrations.<br/> This combination led to successful goal achievement.
                     </p>
 
                 </div>
                 <div className='client-foto'>
-                    <img src={HivioFoto} alt='sesvan portfolio' />
+                    <img src={HivioFoto} className='hivio-foto' alt='hivio portfolio' />
 
                 </div>
 

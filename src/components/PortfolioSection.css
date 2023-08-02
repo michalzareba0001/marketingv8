@@ -21,7 +21,8 @@
   align-items: flex-end;
 }
 .portfolio-section .first-title-div .col-two p {
-  font-weight: 300;
+  font-family: "satoshi", serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 159%;
 }
@@ -42,16 +43,27 @@
 }
 .portfolio-section .client-description1 {
   display: grid;
-  grid-template-columns: 31% 69%;
+  grid-template-columns: 40% 60%;
   margin-bottom: 250px;
+  gap: 50px;
 }
 .portfolio-section .client-description1 .client-text {
   padding: 13px 20px 0px 0px;
 }
-.portfolio-section .client-description1 .client-text p {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 22px;
+.portfolio-section .client-description1 .client-text .desc-big {
+  font-family: "satoshi", serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 173.105%;
+}
+.portfolio-section .client-description1 .client-text .desc-small {
+  margin-top: 28px;
+  font-family: "satoshi", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 173.105%;
 }
 .portfolio-section .client-description1 .client-text .purpple-text {
   font-size: 13px;
@@ -75,7 +87,7 @@
 }
 .portfolio-section .client-description2 {
   display: grid;
-  grid-template-columns: 61% 31%;
+  grid-template-columns: 60% 40%;
   gap: 50px;
   margin-bottom: 250px;
 }
@@ -84,10 +96,20 @@
   float: right;
   padding: 13px 20px 0px 0px;
 }
-.portfolio-section .client-description2 .client-text p {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 22px;
+.portfolio-section .client-description2 .client-text .desc-big {
+  font-family: "satoshi", serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 173.105%;
+}
+.portfolio-section .client-description2 .client-text .desc-small {
+  margin-top: 28px;
+  font-family: "satoshi", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 173.105%;
 }
 .portfolio-section .client-description2 .client-text .purpple-text {
   font-size: 13px;
@@ -107,6 +129,50 @@
 }
 .portfolio-section .client-description2 .client-foto img {
   max-height: 410px;
+}
+.portfolio-section .client-description3 {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  margin-bottom: 250px;
+  gap: 50px;
+}
+.portfolio-section .client-description3 .client-text {
+  padding: 13px 20px 0px 0px;
+}
+.portfolio-section .client-description3 .client-text .desc-big {
+  font-family: "satoshi", serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 173.105%;
+}
+.portfolio-section .client-description3 .client-text .desc-small {
+  margin-top: 28px;
+  font-family: "satoshi", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 173.105%;
+}
+.portfolio-section .client-description3 .client-text .purpple-text {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 40px;
+  color: #474EFF;
+}
+.portfolio-section .client-description3 .client-text .client-web {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 38px;
+}
+.portfolio-section .client-description3 .client-foto {
+  display: flex;
+  justify-content: flex-end;
+}
+.portfolio-section .client-description3 .client-foto img {
+  max-height: 447px;
 }
 .portfolio-section .link-with-arrow {
   grid-column: 2/3;
@@ -134,20 +200,24 @@
     line-height: 55px;
   }
   .client-description1,
-  .client-description2 {
+  .client-description2,
+  .client-description3 {
     grid-template-columns: 50% 50% !important;
   }
   .client-description1 .client-text p,
-  .client-description2 .client-text p {
+  .client-description2 .client-text p,
+  .client-description3 .client-text p {
     font-size: 12px !important;
   }
   .client-description1 .client-foto,
-  .client-description2 .client-foto {
+  .client-description2 .client-foto,
+  .client-description3 .client-foto {
     display: flex;
     align-items: center;
   }
   .client-description1 .client-foto img,
-  .client-description2 .client-foto img {
+  .client-description2 .client-foto img,
+  .client-description3 .client-foto img {
     max-height: 240px !important;
   }
 }
@@ -160,14 +230,16 @@
     font-size: 12px;
   }
   .client-description1 .client-foto img,
-  .client-description2 .client-foto img {
+  .client-description2 .client-foto img,
+  .client-description3 .client-foto img {
     max-height: 220px !important;
   }
   .portfolio-section .client-name {
     font-size: 40px;
   }
   .client-description1 .client-text p,
-  .client-description2 .client-text p {
+  .client-description2 .client-text p,
+  .client-description3 .client-text p {
     font-size: 10px !important;
   }
 }
@@ -180,7 +252,8 @@
     margin-top: 25px;
   }
   .client-description1,
-  .client-description2 {
+  .client-description2,
+  .client-description3 {
     grid-template-columns: 1fr !important;
   }
   .client-description2 .client-text {
@@ -191,13 +264,19 @@
     grid-column: 1/2 !important;
     grid-row: 2/3;
   }
+  .client-description3 .client-foto {
+    grid-column: 1/2 !important;
+    grid-row: 3/4;
+  }
   .portfolio-section .client-description1 .client-foto,
-  .portfolio-section .client-description2 .client-foto {
+  .portfolio-section .client-description2 .client-foto,
+  .portfolio-section .client-description3 .client-foto {
     justify-content: center;
     margin-top: 10px;
   }
   .portfolio-section .client-description1,
-  .portfolio-section .client-description2 {
+  .portfolio-section .client-description2,
+  .portfolio-section .client-description3 {
     margin-bottom: 50px;
   }
   .portfolio-section .first-title-div .col-one {
@@ -231,7 +310,8 @@
     font-size: 30px;
   }
   .portfolio-section .client-description1 .client-foto img,
-  .portfolio-section .client-description2 .client-foto img {
+  .portfolio-section .client-description2 .client-foto img,
+  .portfolio-section .client-description3 .client-foto img {
     max-width: 90vw;
   }
 }/*# sourceMappingURL=PortfolioSection.css.map */
