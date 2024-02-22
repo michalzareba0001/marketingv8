@@ -13,6 +13,9 @@
 }
 .white-menu-section .white-menu-grid .white-menu-left .description {
   width: 72%;
+  font-family: "satoshi", serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 .white-menu-section .white-menu-grid .white-menu-left .contact-form-div {
   position: absolute;
@@ -39,9 +42,12 @@
 .white-menu-section .white-menu-grid .white-menu-left .contact-form-div .icons-and-button .deco-icons .deco-icon:nth-child(3) {
   margin-left: 20px;
 }
+.white-menu-section .white-menu-grid .white-menu-left .contact-form-div .icons-and-button .deco-icons img {
+  height: 48px;
+}
 .white-menu-section .white-menu-grid .white-menu-right {
   grid-column: 2/3;
-  margin-top: 433px;
+  margin-top: 200px;
 }
 .white-menu-section .white-menu-grid .white-menu-right .white-menu-right-grid {
   display: grid;
@@ -122,7 +128,10 @@
     line-height: 50px;
   }
   .white-menu-section .white-menu-grid .white-menu-right .title h4 {
-    font-size: 25px;
+    font-size: 22px;
+  }
+  .white-menu-section .white-menu-grid .white-menu-left .contact-form-div .contact-description {
+    font-size: 20px;
   }
 }
 @media (max-width: 1300px) {
@@ -198,5 +207,12 @@
   }
   .white-menu-section .white-menu-grid .white-menu-left .contact-form-div .icons-and-button {
     width: 100%;
+  }
+  .white-menu-section .white-menu-grid .white-menu-left .contact-form-div .icons-and-button {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .white-menu-section .white-menu-grid .white-menu-left .contact-form-div .icons-and-button .deco-icons img {
+    height: 32px;
   }
 }/*# sourceMappingURL=WhiteMenuSection.css.map */

@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react'
 import './WhiteMenuSection.css'
 import Arrow2 from '../images/svg/Arrow2.svg'
-import BlueButton2 from './BlueButton2'
-import BlueButton3 from './BlueButton3'
+import BlueButtonWhiteBg from './BlueButtonWhiteBg'
 import DecoIco1 from '../images/svg/decoIco1.svg'
 import DecoIco2 from '../images/svg/decoIco2.svg'
 import DecoIco3 from '../images/svg/decoIco3.svg'
+import { useLanguage } from '../LanguageContext'
 
 
 
 function WhiteMenuSection() {
-
+    const { language } = useLanguage()
     useEffect(() => {
         const handleClick = (event) => {
             const titleContainer = event.currentTarget;
@@ -44,24 +44,42 @@ function WhiteMenuSection() {
                 titleContainer.removeEventListener('click', handleClick);
             });
         };
-        
+
     }, []);
 
     return (
         <div className='white-menu-section'>
             <div className='white-menu-grid'>
                 <div className='white-menu-left' id='contact-form'>
-                    <h3>
-                        Rely on a top-tier marketing agency that focuses on premium brands!
-                    </h3>
-                    <p className='description' >
-                        Unlock premium growth with our tailored strategy. Let the numbers speak for themselves. Discover the power of our premium e-commerce solutions today. Allow us to elevate your premium brand to new heights with our exceptional solutions and out of the box strategies.
-                    </p>
+                    {language === 'english' ?
+                        <h3>
+                            Rely on a top-tier marketing agency that focuses on premium brands!
+                        </h3>
+                        :
+                        <h3>
+                            Polegaj na agencji marketingowej najwyższej klasy, która skupia się na ekskluzywnych markach!
+                        </h3>
+                    }
+                    {language === 'english' ?
+                        <p className='description' >
+                            Unlock premium growth with our tailored strategy. Let the numbers speak for themselves. Discover the power of our premium e-commerce solutions today. Allow us to elevate your premium brand to new heights with our exceptional solutions and out of the box strategies.
+                        </p>
+                        :
+                        <p className='description'>
+                            Odblokuj premiumowy wzrost dzięki naszej dopasowanej strategii. Pozwól, by liczby mówiły same za siebie. Odkryj moc naszych premiumowych rozwiązań e-commerce już dziś. Pozwól nam podnieść Twoją ekskluzywną markę na nowe wysokości dzięki naszym wyjątkowym rozwiązaniom i nietypowym strategiom.
+                        </p>
+                    }
 
                     <div className='contact-form-div' >
-                        <p className='contact-description'>
-                            Looking to <span className='bold-text'>elevate your marketing strategy?</span><br /> Our premium marketing agency delivers<br /> exceptional results tailored to your business<br /> needs. <span className='bold-text'>Contact us today</span> and unlock the<br /> potential of your brand.
-                        </p>
+                        {language === 'english' ?
+                            <p className='contact-description'>
+                                Looking to <span className='bold-text'>elevate your marketing strategy?</span><br /> Our premium marketing agency delivers<br /> exceptional results tailored to your business<br /> needs. <span className='bold-text'>Contact us today</span> and unlock the<br /> potential of your brand.
+                            </p>
+                            :
+                            <p className='contact-description'>
+                                Szukasz <span className='bold-text'>lepszej strategii marketingowej?</span><br /> Nasza ekskluzywna agencja dostarcza wyjątkowe rezultaty dopasowane do potrzeb Twojego biznesu. <span className='bold-text'>Skontaktuj się z nami już dziś</span> i odblokuj potencjał swojej marki.
+                            </p>
+                        }
                         <div className='icons-and-button'>
 
                             <div className='deco-icons'>
@@ -71,7 +89,7 @@ function WhiteMenuSection() {
                                 <img src={DecoIco3} alt='decoration icon' className='deco-icon' />
                             </div>
                             <div className='button-send'>
-                                <BlueButton3 text='Send message' className='send-message'/>
+                                <BlueButtonWhiteBg text={language === 'english' ? 'Send message' : 'Kontakt'} className='send-message' />
                             </div>
 
                         </div>
@@ -84,17 +102,25 @@ function WhiteMenuSection() {
                         <div className='title'><h4>UX/UI Design</h4><img src={Arrow2} alt='arrow-right' className='arrow-right' />
                             <div className='description-parent'>
                                 <div className='description-child'>
-                                    <p>The significance of product design on your business fortunes cannot
-                                        be overstated. When executed effectively, it can provide a significant competitive edge. However, when done poorly, it can be detrimental
-                                        to your business.
-                                        <br />
-                                        <br />
-                                        Successful product design is a result of comprehensive research and strategy, incorporating data and insights. It lays the foundation for your product's features and enhances the overall quality of the customer experience. Ultimately, it increases the likelihood of commercial success. Be beyond with us by investing in exceptional design.
-                                    </p>
+                                    {language === 'english' ?
+                                        <p>The significance of product design on your business fortunes cannot
+                                            be overstated. When executed effectively, it can provide a significant competitive edge. However, when done poorly, it can be detrimental
+                                            to your business.
+                                            <br />
+                                            <br />
+                                            Successful product design is a result of comprehensive research and strategy, incorporating data and insights. It lays the foundation for your product's features and enhances the overall quality of the customer experience. Ultimately, it increases the likelihood of commercial success. Be beyond with us by investing in exceptional design.
+                                        </p>
+                                        :
+                                        <p>Znaczenie projektowania produktu dla losów Twojego biznesu nie może być przecenione. Kiedy jest przeprowadzone skutecznie, może zapewnić znaczącą przewagę konkurencyjną. Jednakże, gdy jest wykonane słabo, może zaszkodzić Twojemu biznesowi.
+                                            <br />
+                                            <br />
+                                            Udane projektowanie produktu jest wynikiem wszechstronnych badań i strategii, uwzględniających dane i spostrzeżenia. Kładzie ono podwaliny pod cechy Twojego produktu i poprawia ogólną jakość doświadczenia klienta. Ostatecznie zwiększa to szanse na komercyjny sukces. Wykraczaj poza granice z nami, inwestując w wyjątkowe projektowanie.
+                                        </p>
+                                    }
 
-                                    <BlueButton2
-                                        text='Free quote'
-                                        href='mailto:office@marketingv8.co'
+                                    <BlueButtonWhiteBg
+                                        text={language === 'english' ? 'Free quote' : 'Wycena'}
+
                                     />
                                 </div>
                             </div>
@@ -103,15 +129,21 @@ function WhiteMenuSection() {
                         <div className='title'><h4>Web & Mobile Development</h4><img src={Arrow2} alt='arrow-right' className='arrow-right' />
                             <div className='description-parent'>
                                 <div className='description-child'>
-                                    <p>We specialize in Web & Mobile Development, delivering innovative and functional solutions for your company. Our comprehensive services cover web and mobile application development, tailored to your project's needs and industry.
-                                        <br />
-                                        <br />
+                                    {language === 'english' ?
+                                        <p>We specialize in Web & Mobile Development, delivering innovative and functional solutions for your company. Our comprehensive services cover web and mobile application development, tailored to your project's needs and industry.
+                                            <br />
+                                            <br />
 
-                                        We leverage the latest technologies and trends to give your business a competitive edge. With our expertise, we'll help you establish a strong online presence and optimize your operations for enhanced efficiency.</p>
+                                            We leverage the latest technologies and trends to give your business a competitive edge. With our expertise, we'll help you establish a strong online presence and optimize your operations for enhanced efficiency.</p>
+                                        :
+                                        <p>Specjalizujemy się w rozwoju aplikacji webowych i mobilnych, dostarczając innowacyjne i funkcjonalne rozwiązania dla Twojej firmy. Nasze kompleksowe usługi obejmują rozwój aplikacji internetowych i mobilnych, dopasowanych do potrzeb Twojego projektu i branży.
+                                            <br />
+                                            <br />
+                                            Wykorzystujemy najnowsze technologie i trendy, aby dać Twojej firmie przewagę konkurencyjną. Dzięki naszej wiedzy i doświadczeniu pomożemy Ci ustanowić silną obecność online i zoptymalizować operacje dla zwiększonej efektywności.</p>
+                                    }
+                                    <BlueButtonWhiteBg
+                                        text={language === 'english' ? 'Free quote' : 'Wycena'}
 
-                                    <BlueButton2
-                                        text='Free quote'
-                                        href='mailto:office@marketingv8.co'
                                     />
                                 </div>
                             </div></div>
@@ -124,9 +156,9 @@ function WhiteMenuSection() {
 
                                     With our SEO & SEM services, you'll drive more traffic, improve rankings, and increase conversions. Whether you're a small business or a large e-commerce store, our professional services will help you succeed online and achieve your business goals.</p>
 
-                                <BlueButton2
+                                <BlueButtonWhiteBg
                                     text='Free quote'
-                                    href='mailto:office@marketingv8.co'
+
                                 />
                             </div>
                         </div></div>
@@ -138,9 +170,9 @@ function WhiteMenuSection() {
                                     <br />
                                     Data analytics enables you to identify trends, understand customer preferences, optimize operations, and enhance marketing effectiveness. Our services provide insights into key business indicators and support strategic decision-making across industries.</p>
 
-                                <BlueButton2
+                                <BlueButtonWhiteBg
                                     text='Free quote'
-                                    href='mailto:office@marketingv8.co'
+
                                 />
                             </div>
                         </div></div>
@@ -153,9 +185,9 @@ function WhiteMenuSection() {
 
                                     With us, you can focus on creating innovative products, responding to customer needs, and adapting to a changing market. By partnering with us, you will gain support throughout the product lifecycle to achieve success and satisfaction for both your customers and your company.</p>
 
-                                <BlueButton2
+                                <BlueButtonWhiteBg
                                     text='Free quote'
-                                    href='mailto:office@marketingv8.co'
+
                                 />
                             </div>
                         </div></div>
@@ -168,9 +200,9 @@ function WhiteMenuSection() {
 
                                     Our team understands the importance of creating engaging and informative content. With strategic content marketing, you can establish your brand as a thought leader, increase organic traffic, and build long-term customer relationships. Start creating valuable content with us and attract potential audiences!</p>
 
-                                <BlueButton2
+                                <BlueButtonWhiteBg
                                     text='Free quote'
-                                    href='mailto:office@marketingv8.co'
+
                                 />
                             </div>
                         </div></div>
@@ -183,9 +215,9 @@ function WhiteMenuSection() {
 
                                     Gain a competitive edge and achieve long-term results through our partnership. Let us be your trusted partner on the journey to business growth and success.</p>
 
-                                <BlueButton2
+                                <BlueButtonWhiteBg
                                     text='Free quote'
-                                    href='mailto:office@marketingv8.co'
+
                                 />
                             </div>
                         </div></div>

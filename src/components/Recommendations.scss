@@ -74,10 +74,10 @@
                 top: 0;
             }
 
-            p {
-                font-size: 18px;
+            p { font-family: 'satoshi', serif;
+                font-size: 20px;
                 line-height: 30px;
-                font-weight: 300;
+                font-weight: 400;
                 padding-top: 40px;
                 position: absolute;
 
@@ -142,7 +142,7 @@
     }
 
     .recommendations-main .content-div .text-div p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .recommendations-main {
@@ -208,6 +208,10 @@
 
     .arrows-recommendations{
         z-index: 100;
+    }
+
+    .recommendations-main .title-div .col-one h3 .sec-row {
+        padding-left: 30px;
     }
 
 }

@@ -52,6 +52,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
+  overflow-x: hidden;
 }
 .App .App-header,
 .App .App-main,

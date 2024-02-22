@@ -65,9 +65,10 @@
   top: 0;
 }
 .recommendations-main .content-div .text-div p {
-  font-size: 18px;
+  font-family: "satoshi", serif;
+  font-size: 20px;
   line-height: 30px;
-  font-weight: 300;
+  font-weight: 400;
   padding-top: 40px;
   position: absolute;
 }
@@ -114,7 +115,7 @@
     line-height: 40px;
   }
   .recommendations-main .content-div .text-div p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .recommendations-main {
     margin-bottom: 130px;
@@ -167,5 +168,8 @@
   }
   .arrows-recommendations {
     z-index: 100;
+  }
+  .recommendations-main .title-div .col-one h3 .sec-row {
+    padding-left: 30px;
   }
 }/*# sourceMappingURL=Recommendations.css.map */

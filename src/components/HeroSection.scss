@@ -215,16 +215,18 @@
         margin-top: 50px;
 
         .icon-frame {
-            width: 148px !important;
+            width: fit-content !important;
         }
     }
 
+
+
     .hero-section .left-column .hero-description .description-right .deco-ico-2 .icon-frame{
-        width: 160px !important;
+        width: fit-content !important;
     } 
 
     .hero-section .left-column .hero-description .description-right .deco-ico-3 .icon-frame{
-        width: 130px !important;
+        width: fit-content !important;
     }
 
     .hero-section .left-column .hero-description .description-left .description-text br{
@@ -244,5 +246,7 @@
     .hero-section .right-column .we-invite-you{
         bottom: -10%;
     }
+
+    
 
 }

@@ -15,11 +15,16 @@ import FooterMain from './components/FooterMain';
 import FooterBottomBar from './components/FooterBottomBar';
 import CookieSettings from './components/CookieSettings';
 import ContactFormTwo from './components/ContactFormTwo';
+import { LanguageProvider } from './LanguageContext';
+
+
 
 function App() {
-  
+
+
   return (
     <div className="App">
+      <LanguageProvider>
       <header className="App-header">
         <Header />
       </header>
@@ -55,6 +60,7 @@ function App() {
         <CookieSettings />
 
       </footer>
+      </LanguageProvider>
     </div>
   );
 }

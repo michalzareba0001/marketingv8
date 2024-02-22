@@ -21,14 +21,45 @@
   font-weight: 400;
 }
 
+.kafel-div-pl {
+  background-color: #ffffff;
+  max-width: 305px;
+  min-height: 327px;
+  padding: 30px 20px 30px 20px;
+  border-radius: 15px;
+}
+.kafel-div-pl h4 {
+  color: #0F0F0F;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+.kafel-div-pl p {
+  font-family: "satoshi";
+  color: #0F0F0F;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
 @media (max-width: 1700px) {
   .kafel-div {
     max-width: 270px;
     min-height: 330px;
   }
+  .kafel-div-pl {
+    max-width: 270px;
+    min-height: 350px;
+  }
 }
 @media (max-width: 1500px) {
   .kafel-div {
+    max-width: 245px;
+    min-height: 403px;
+  }
+  .kafel-div-pl {
     max-width: 245px;
     min-height: 403px;
   }
@@ -39,12 +70,24 @@
     line-height: 22px;
   }
   .kafel-div p {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 20px;
   }
   .kafel-div {
     max-width: 200px;
     min-height: 322px;
+  }
+  .kafel-div-pl h4 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .kafel-div-pl p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .kafel-div-pl {
+    max-width: 200px;
+    min-height: 352px;
   }
 }
 @media (max-width: 1024px) {
@@ -52,9 +95,17 @@
     max-width: 250px;
     min-height: 280px;
   }
+  .kafel-div-pl {
+    max-width: 250px;
+    min-height: 300px;
+  }
 }
 @media (max-width: 768px) {
   .kafel-div {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .kafel-div-pl {
     max-width: 100%;
     margin-bottom: 20px;
   }

@@ -13,6 +13,9 @@
 
             .description {
                 width: 72%;
+                font-family: 'satoshi', serif;
+                font-size: 18px;
+                font-weight: 400;
             }
 
             .contact-form-div {
@@ -44,6 +47,10 @@
                        .deco-icon:nth-child(3){
                         margin-left: 20px;
                        }
+
+                       img{
+                        height: 48px;
+                       }
                     }
                 }
 
@@ -54,7 +61,7 @@
 
         .white-menu-right {
             grid-column: 2/3;
-            margin-top: 433px;
+            margin-top: 200px;
 
             .white-menu-right-grid {
                 display: grid;
@@ -169,8 +176,13 @@
     }
 
     .white-menu-section .white-menu-grid .white-menu-right .title h4{
-        font-size: 25px;
+        font-size: 22px;
     }
+
+    .white-menu-section .white-menu-grid .white-menu-left .contact-form-div .contact-description{
+        font-size: 20px;
+    }
+
 }
 
 @media (max-width: 1300px){
@@ -264,5 +276,16 @@
     .white-menu-section .white-menu-grid .white-menu-left .contact-form-div .icons-and-button{
         width: 100%;
     }
+
+    .white-menu-section .white-menu-grid .white-menu-left .contact-form-div .icons-and-button{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+.white-menu-section .white-menu-grid .white-menu-left .contact-form-div .icons-and-button .deco-icons img {
+    height: 32px;
+}
+    
 
 }

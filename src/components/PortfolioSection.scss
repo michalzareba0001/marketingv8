@@ -27,7 +27,7 @@
             p {
                 font-family: 'satoshi', serif;
                 font-weight: 400;
-                font-size: 14px;
+                font-size: 18px;
                 line-height: 159%;
             }
         }
@@ -261,9 +261,9 @@
         grid-template-columns: 50% 50% !important;
 
         .client-text {
-            p {
-                font-size: 12px !important;
-            }
+          .desc-big{
+            font-size: 24px !important;
+          }
         }
 
         .client-foto {
@@ -299,11 +299,7 @@
         font-size: 40px;
     }
 
-    .client-description1 .client-text p,
-    .client-description2 .client-text p,
-    .client-description3 .client-text p {
-        font-size: 10px !important;
-    }
+   
 
 
 }

@@ -179,13 +179,16 @@
     margin-top: 50px;
   }
   .hero-section .left-column .hero-description .description-right .deco-ico-1 .icon-frame {
-    width: 148px !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
   }
   .hero-section .left-column .hero-description .description-right .deco-ico-2 .icon-frame {
-    width: 160px !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
   }
   .hero-section .left-column .hero-description .description-right .deco-ico-3 .icon-frame {
-    width: 130px !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
   }
   .hero-section .left-column .hero-description .description-left .description-text br {
     display: none;

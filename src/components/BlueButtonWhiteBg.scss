@@ -1,43 +1,37 @@
-.blue-button-long {
+.blue-button-white-bg {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #474EFF;
-    width: 90%;
+    width: 152px;
     height: 48px;
     border-radius: 34px;
     transition: all 500ms;
     border: none !important;
-    box-shadow: 0px 0px 36px 3px #474EFF;
     
 
-    .button-text-long {
+    .button-text-white-bg {
         color: #ffffff;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
         font-family: 'Unbounded';
         text-align: center;
         transition: color 500ms;
+        
 
     }
 
 }
 
-.blue-button-long:hover {
+.blue-button-white-bg:hover {
     cursor: pointer;   
     transition: all 500ms;
-    box-shadow: 0px 0px 50px 8px #474EFF;
 
-    .button-text-long{
+
+    .button-text-white-bg{
        // font-weight: 600;
         transition: color 500ms;
         color: #000000;
 
-    }
-}
-
-@media (max-width: 1300px){
-    .blue-button-long .button-text-long{
-        font-size: 10px;
     }
 }

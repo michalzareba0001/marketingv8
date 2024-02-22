@@ -78,7 +78,7 @@
     max-width: 1024px !important;
   }
   .main-container .content-container .small-text {
-    font-size: 10px;
+    font-size: 14px;
   }
   .main-container .content-container .first-title {
     font-size: 30px;
@@ -94,7 +94,7 @@
     background-size: cover;
   }
   .main-container .content-container .counters .counter-description {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 @media (max-width: 768px) {

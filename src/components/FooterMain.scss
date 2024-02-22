@@ -6,10 +6,11 @@
     .col-one {
         grid-column: 1/2;
 
-        p {
+        p { 
+            font-family: 'satoshi';
             margin-top: 30px;
-            font-weight: 300;
-            font-size: 14px;
+            font-weight: 400;
+            font-size: 18px;
             line-height: 159%;
         }
     }
@@ -32,9 +33,11 @@
         }
 
         .col-data {
+            font-family: 'satoshi';
+            font-weight: 400;
             grid-column: 2/3;
-            font-weight: 300;
-            font-size: 14px;
+            font-weight: 400;
+            font-size: 18px;
             line-height: 22px;
         }
 
@@ -55,6 +58,8 @@
             font-size: 14px;
             font-family: 'Unbounded';
         }
+
+        
     }
 
     .col-three {
@@ -75,9 +80,11 @@
         }
 
         .col-data {
+            font-family: 'satoshi';
+            font-weight: 400;
             grid-column: 2/3;
-            font-weight: 300;
-            font-size: 14px;
+            font-weight: 400;
+            font-size: 18px;
             line-height: 22px;
             .contact-link{
                 margin-top: 20px;
@@ -117,7 +124,7 @@
         max-width: 200px;
     }
     .footer-main-container .col-one p{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .footer-main-container .col-two .col-title, 
@@ -127,7 +134,7 @@
 
     .footer-main-container .col-two .col-data, 
     .footer-main-container .col-three .col-data {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 16px;
     }
 

@@ -23,7 +23,7 @@
 .portfolio-section .first-title-div .col-two p {
   font-family: "satoshi", serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 159%;
 }
 .portfolio-section .first-title-div .col-three {
@@ -204,10 +204,10 @@
   .client-description3 {
     grid-template-columns: 50% 50% !important;
   }
-  .client-description1 .client-text p,
-  .client-description2 .client-text p,
-  .client-description3 .client-text p {
-    font-size: 12px !important;
+  .client-description1 .client-text .desc-big,
+  .client-description2 .client-text .desc-big,
+  .client-description3 .client-text .desc-big {
+    font-size: 24px !important;
   }
   .client-description1 .client-foto,
   .client-description2 .client-foto,
@@ -236,11 +236,6 @@
   }
   .portfolio-section .client-name {
     font-size: 40px;
-  }
-  .client-description1 .client-text p,
-  .client-description2 .client-text p,
-  .client-description3 .client-text p {
-    font-size: 10px !important;
   }
 }
 @media (max-width: 1024px) {

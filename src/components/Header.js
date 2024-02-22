@@ -1,9 +1,16 @@
-import React from 'react'
-import './header.css'
-import Logo from '../images/svg/v8logo.svg'
-import BlueButton from './BlueButton'
+// Header.js
+import React from 'react';
+import { useLanguage } from '../LanguageContext';
+import './header.css';
+import Logo from '../images/svg/v8logo.svg';
 
-function Header() {
+const Header = () => {
+  const { language, setLanguage } = useLanguage();
+
+  const handleLanguageChange = () => {
+    setLanguage(language === 'english' ? 'polish' : 'english');
+  };
+
   return (
     <div className='header-main'>
       <div className='col-one'>
@@ -14,13 +21,12 @@ function Header() {
         </div>
       </div>
       <div className='col-two'>
-
-
+        <button onClick={handleLanguageChange}>
+          {language === 'english' ? 'Switch to Polish' : 'Przełącz na angielski'}
+        </button>
       </div>
-
-
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

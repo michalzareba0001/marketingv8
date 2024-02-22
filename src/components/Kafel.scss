@@ -1,4 +1,4 @@
-.kafel-div{
+.kafel-div {
     background-color: #ffffff;
     max-width: 305px;
     min-height: 305px;
@@ -6,7 +6,7 @@
     border-radius: 15px;
 
 
-    h4{
+    h4 {
         color: #0F0F0F;
         font-size: 22px;
         font-weight: 600;
@@ -14,7 +14,8 @@
         margin-top: 27px;
         margin-bottom: 27px;
     }
-    p{
+
+    p {
         font-family: 'satoshi';
         color: #0F0F0F;
         font-size: 18px;
@@ -23,30 +24,64 @@
     }
 }
 
-@media (max-width: 1700px){
-    .kafel-div{
-        max-width: 270px;
-        min-height: 330px;
+.kafel-div-pl {
+    background-color: #ffffff;
+    max-width: 305px;
+    min-height: 327px;
+    padding: 30px 20px 30px 20px;
+    border-radius: 15px;
+
+    h4 {
+        color: #0F0F0F;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 32px;
+        margin-top: 27px;
+        margin-bottom: 27px;
+    }
+
+    p {
+        font-family: 'satoshi';
+        color: #0F0F0F;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
     }
 }
 
-@media (max-width: 1500px){
+@media (max-width: 1700px) {
     .kafel-div {
+        max-width: 270px;
+        min-height: 330px;
+    }
+    .kafel-div-pl {
+        max-width: 270px;
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .kafel-div {
+        max-width: 245px;
+        min-height: 403px;
+    }
+    .kafel-div-pl {
         max-width: 245px;
         min-height: 403px;
     }
 }
 
-@media (max-width: 1300px){
-    .kafel-div h4{
+@media (max-width: 1300px) {
+    .kafel-div h4 {
         font-size: 14px;
         line-height: 22px;
 
     }
 
-    .kafel-div p{
-        font-size: 10px;
-        line-height: 20px;;
+    .kafel-div p {
+        font-size: 14px;
+        line-height: 20px;
+        ;
     }
 
     .kafel-div {
@@ -54,17 +89,42 @@
         min-height: 322px;
     }
 
+    .kafel-div-pl h4 {
+        font-size: 14px;
+        line-height: 22px;
+
+    }
+
+    .kafel-div-pl p {
+        font-size: 14px;
+        line-height: 20px;
+        ;
+    }
+
+    .kafel-div-pl {
+        max-width: 200px;
+        min-height: 352px;
+    }
+
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
     .kafel-div {
         max-width: 250px;
         min-height: 280px;
     }
+    .kafel-div-pl {
+        max-width: 250px;
+        min-height: 300px;
+    }
 }
 
-@media (max-width: 768px){
-    .kafel-div{
+@media (max-width: 768px) {
+    .kafel-div {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .kafel-div-pl {
         max-width: 100%;
         margin-bottom: 20px;
     }
