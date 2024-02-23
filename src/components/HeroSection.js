@@ -48,7 +48,7 @@ function HeroSection() {
                         </div>
                     </div>
                     <div className='description-right'>
-                        <div className='deco-ico-1'>
+                        <div className={language === 'english' ? 'deco-ico-1' : 'deco-ico-1-pl'}>
                             <IconFrame
                                 icon={DecoIco1}
                                 text={language === 'english' ? 'STRATEGY' : 'STRATEGIA'}

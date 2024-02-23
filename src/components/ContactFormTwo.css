@@ -146,7 +146,7 @@
   }
   .contact-form-main-container .contact-right {
     grid-column: 1/2;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 20px 20px 20px;
   }
   .contact-form-main-container .contact-right .contact-form-two {
     gap: 20px;
@@ -175,7 +175,8 @@
   .contact-form-main-container .contact-right .contact-form-two .contact-your-message {
     margin-top: 0px;
   }
-  .contact-form-main-container .contact-right .contact-form-two .contact-phone-nr .contact-label {
+  .contact-form-main-container .contact-right .contact-form-two .contact-phone-nr .contact-label,
+  .contact-form-main-container .contact-right .contact-form-two .contact-what-source .contact-label {
     height: 24px;
   }
 }/*# sourceMappingURL=ContactFormTwo.css.map */

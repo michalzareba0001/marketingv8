@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import BlueButton2 from './BlueButton2';
 import './ContactFormTwo.css';
+import { useLanguage } from '../LanguageContext';
 
 function ContactFormTwo() {
     const [firstName, setFirstName] = useState('');
@@ -10,6 +11,7 @@ function ContactFormTwo() {
     const [whatSource, setWhatSource] = useState('');
     const [yourMessage, setYourMessage] = useState('');
     const [privacyPolicyAccepted, setPrivacyPolicyAccepted] = useState(false);
+    const { language } = useLanguage();
 
     const handleFirstNameChange = (e) => {
         setFirstName(e.target.value);
@@ -85,12 +87,12 @@ function ContactFormTwo() {
     const handleXClick = () => {
         const contactPopup = document.querySelector('.contact-popup');
         if (contactPopup) {
-          if(contactPopup.classList.contains('contact-popup-active')){
-            contactPopup.classList.remove('contact-popup-active');
-          }
-          else{
-            contactPopup.classList.add('contact-popup-active');
-          }
+            if (contactPopup.classList.contains('contact-popup-active')) {
+                contactPopup.classList.remove('contact-popup-active');
+            }
+            else {
+                contactPopup.classList.add('contact-popup-active');
+            }
         }
 
     };
@@ -103,48 +105,76 @@ function ContactFormTwo() {
             <div className='contact-right'>
                 <form className='contact-form-two' onSubmit={handleSubmit}>
                     <div className='contact-tittle-div'>
-                        <h2 className='contact-title'>Send us a message</h2>
+                        {language === 'english' ?
+                            <h2 className='contact-title'>Send us a message</h2>
+                            :
+                            <h2 className='contact-title'>Wyślij nam wiadomość</h2>
+                        }
                         <span className='contact-x' onClick={handleXClick}>x</span>
                     </div>
-                    <h4 className='contact-description'>Prefer e-mail? hello@marketingv8.co</h4>
+                    {language === 'english' ?
+                        <h4 className='contact-description'>Prefer e-mail? hello@marketingv8.co</h4>
+                        :
+                        <h4 className='contact-description'>Wolisz napisać e-mail? hello@marketingv8.co</h4>
+                    }
                     <div className='contact-first-name'>
-                        <h4 className='contact-label'>First name*</h4>
+                        {language === 'english' ?
+                            <h4 className='contact-label'>First name*</h4>
+                            :
+                            <h4 className='contact-label'>Imię*</h4>
+                        }
                         <input
                             className='contact-input'
-                            placeholder='Enter first name'
+                            placeholder={language === 'english' ? 'Enter first name' : 'Twoje imię'}
                             value={firstName}
                             onChange={handleFirstNameChange}
                         />
                     </div>
                     <div className='contact-last-name'>
-                        <h4 className='contact-label'>Last name*</h4>
+                        {language === 'english' ?
+                            <h4 className='contact-label'>Last name*</h4>
+                            :
+                            <h4 className='contact-label'>Nazwisko*</h4>
+                        }
                         <input
                             className='contact-input'
-                            placeholder='Enter last name'
+                            placeholder={language === 'english' ? 'Enter last name' : 'Twoje nazwisko'}
                             value={lastName}
                             onChange={handleLastNameChange}
                         />
                     </div>
                     <div className='contact-email'>
-                        <h4 className='contact-label'>Your e-mail*</h4>
+                        {language === 'english' ?
+                            <h4 className='contact-label'>Your e-mail*</h4>
+                            :
+                            <h4 className='contact-label'>Adres e-mail*</h4>
+                        }
                         <input
                             className='contact-input'
-                            placeholder='Enter e-mail'
+                            placeholder={language === 'english' ? 'Enter e-mail' : 'Twój e-mail'}
                             value={email}
                             onChange={handleEmailChange}
                         />
                     </div>
                     <div className='contact-phone-nr'>
-                        <h4 className='contact-label'>Phone number</h4>
+                        {language === 'english' ?
+                            <h4 className='contact-label'>Phone number</h4>
+                            :
+                            <h4 className='contact-label'>Numer telefonu</h4>
+                        }
                         <input
                             className='contact-input'
-                            placeholder='+1 212-555-1234'
+                            placeholder={language === 'english' ? '+1 212-555-1234' : '+48 555 555 555'}
                             value={contactNumber}
                             onChange={handleContactNumberChange}
                         />
                     </div>
                     <div className='contact-what-source'>
-                        <h4 className='contact-label'>How did you hear about us</h4>
+                        {language === 'english' ?
+                            <h4 className='contact-label'>How did you hear about us</h4>
+                            :
+                            <h4 className='contact-label'>Skąd o nas wiesz</h4>
+                        }
                         <input
                             className='contact-input'
                             placeholder=''
@@ -153,11 +183,15 @@ function ContactFormTwo() {
                         />
                     </div>
                     <div className='contact-your-message'>
-                        <h4 className='contact-label'>How can we help?*</h4>
+                        {language === 'english' ?
+                            <h4 className='contact-label'>How can we help?*</h4>
+                            :
+                            <h4 className='contact-label'>Jak możemy pomóc?*</h4>
+                        }
                         <textarea
                             className='contact-input'
                             placeholder=''
-                            rows = {15}
+                            rows={15}
                             value={yourMessage}
                             onChange={handleYourMessageChange}
                         />
@@ -169,12 +203,18 @@ function ContactFormTwo() {
                             checked={privacyPolicyAccepted}
                             onChange={handlePrivacyPolicyChange}
                         />
+                        {language === 'english' ?
                         <label className='contact-priv-policy' htmlFor='privacyPolicy'>
                             I have read and accept the Privacy Policy & Cookie Policy. *
                         </label>
+                        :
+                        <label className='contact-priv-policy' htmlFor='privacyPolicy'>
+                            Przeczytałem i akceptuję Polityke Prywatności oraz ciasteczka *
+                        </label>
+}
                     </div>
                     <div className='button-send-two'>
-                        <BlueButton2 text='Send message' type='submit' />
+                        <BlueButton2 text={language === 'english' ? 'Send message' : 'Wyślij'} type='submit' />
                     </div>
                 </form>
             </div>

@@ -1,4 +1,3 @@
-// Header.js
 import React from 'react';
 import { useLanguage } from '../LanguageContext';
 import './header.css';
@@ -21,9 +20,18 @@ const Header = () => {
         </div>
       </div>
       <div className='col-two'>
-        <button onClick={handleLanguageChange}>
-          {language === 'english' ? 'Switch to Polish' : 'Przełącz na angielski'}
-        </button>
+        <div className='language-switcher'>
+          <span onClick={handleLanguageChange} className={language === 'english' ? 'blue-color' : 'white-color'}>EN</span>
+          <div className='dot-space'>
+
+            <div
+              className={`dot ${language === 'english' ? 'en' : 'pl'}`}
+              onClick={handleLanguageChange}
+            ></div>
+
+          </div>
+          <span onClick={handleLanguageChange} className={language !== 'english' ? 'blue-color' : 'white-color'}>PL</span>
+        </div>
       </div>
     </div>
   );

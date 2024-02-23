@@ -173,7 +173,7 @@
 
         .contact-right {
             grid-column: 1/2;
-            padding: 20px 40px 20px 40px;
+            padding: 20px 20px 20px 20px;
 
             .contact-form-two {
                 gap: 20px;
@@ -203,10 +203,12 @@
                     margin-top: 0px;
                 }
 
-                .contact-phone-nr{
+                .contact-phone-nr,
+                .contact-what-source{
                     .contact-label{
                         height: 24px;
-                    }                }
+                    }                
+                }
             }
 
         }

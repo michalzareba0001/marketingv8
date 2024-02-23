@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import BlueButtonLong from './BlueButtonLong';
 import './Newsletterform.css';
+import { useLanguage } from '../LanguageContext';
 
 function Newsletterform() {
 
-
+  const { language } = useLanguage();
   const [email, setEmail] = useState('');
 
   const handleEmailChange = (e) => {
@@ -45,11 +46,11 @@ function Newsletterform() {
         <input
           className='newsletter-input'
           id='email'
-          placeholder='Your e-mail'
+          placeholder={language === 'english' ? 'Your e-mail' : 'Twój e-mail'}
           value={email}
           onChange={handleEmailChange}
         />
-        <BlueButtonLong text='Get my free monthly advice' type='submit' />
+        <BlueButtonLong text={language === 'english' ? 'Get my free monthly advice' : 'Otrzymaj darmową poradę'} type='submit' />
       </form>
     </div>
   );
