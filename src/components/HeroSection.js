@@ -6,6 +6,7 @@ import DecoIco3 from '../images/svg/decoIco3.svg'
 import Oicon from '../images/svg/O.svg'
 import Inficon from '../images/svg/8.svg'
 import WeInviteYou from '../images/svg/weInviteYouFurther.svg'
+import IdzDalej from '../images/svg/idzdalej.svg'
 import Crystal from '../video/crystalCaleidoscope.mp4'
 import IconFrame from './IconFrame'
 import RoundText from './RoundText'
@@ -82,7 +83,7 @@ function HeroSection() {
                 {language === 'english' ?
                     <img src={WeInviteYou} className='we-invite-you' alt='We invite You further' />
                     :
-                    <img src={WeInviteYou} className='we-invite-you' alt='We invite You further' />
+                    <img src={IdzDalej} className='we-invite-you' alt='We invite You further' />
                 }
             </div>
         </div>
